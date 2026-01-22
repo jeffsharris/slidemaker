@@ -1,0 +1,19 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'Routing'. No logos or brand names. A simple world map with two clusters; one route is longer with less queue, one is shorter with more queue. Labels: 'wait' and 'travel'.",
+  "rubric": [
+    "Two routing choices are visible.",
+    "Wait vs travel tradeoff is implied.",
+    "Title 'Routing' is visible.",
+    "Playful, minimal style."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Clarify the difference in route lengths more explicitly, for example by slightly extending the upper (travel) path or shortening the lower (wait) path so the contrast is visually obvious at a glance.",
+      "Reduce a bit of background detail (e.g., some stars/clouds) to lean even more into a minimal look and make the two route options the single strongest focal point."
+    ],
+    "summary": "All rubric items are satisfied: two distinct routing choices are clearly visible, the wait vs travel tradeoff is implied with a queued path vs a timed world-route, the title 'Routing' appears in the top-left, and the overall style is playful, cute, and minimal with pastel colors and rounded shapes."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Capacity'. Diagram: ONE server chassis labeled 'server' with a visible GPU bay. Show a plus sign adding extra GPUs inside the SAME chassis, not a second server. A queue of request strips feeds the chassis; the queue is visibly shorter after the added GPUs within the same diagram. Only text: 'Capacity', 'server'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Capacity'.",
+    "No extra text appears beyond the specified labels.",
+    "Exactly one server chassis is shown and it is labeled 'server'.",
+    "Additional GPUs are shown added inside the same chassis.",
+    "The queue becomes shorter after the GPUs are added."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.5,
+    "failures": [
+      "The diagram shows two separate server chassis instead of exactly one chassis as required.",
+      "The GPUs appear in a second server rather than being visibly added inside the same single chassis.",
+      "The queue shortening is depicted on the right side of a second server, not as a before/after state of a single server chassis."
+    ],
+    "improvements": [
+      "Redraw the diagram to feature only one server chassis in the slide, labeled 'server'.",
+      "Depict the GPUs being added inside that same chassis; for example, show a left half with fewer GPUs and a right half of the same chassis with more GPUs, or use an internal plus sign indicating added GPUs without duplicating the chassis.",
+      "Show the request queue longer before the GPUs are added and clearly shorter afterward, both feeding into the same single chassis rather than two separate servers."
+    ],
+    "summary": "The style, title, and text labeling are correct, but the diagram uses two servers instead of a single chassis gaining additional GPUs, and the queue change is tied to that second server rather than a before/after state of one server."
+  }
+}

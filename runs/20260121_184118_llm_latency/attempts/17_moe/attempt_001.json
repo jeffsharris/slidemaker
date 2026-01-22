@@ -1,0 +1,23 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'MoE'. Diagram: A router sends tokens to three expert blocks; two are active, others dimmed. Label active blocks 'expert'. Only text: 'MoE', 'expert'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'MoE'.",
+    "No extra text appears beyond the specified labels.",
+    "Only a subset of experts are active.",
+    "Inactive experts are visibly skipped."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.8,
+    "failures": [
+      "No extra text appears beyond the specified labels: The diagram includes unlabeled icons and shapes that are acceptable, but the three small white indicators on the router are arguably textual/semantic marks beyond 'MoE' and 'expert'.",
+      "Inactive experts are visibly skipped: While inactive experts are dimmed with dashed outlines, the routing arrows appear to target all central blocks equally, so it is ambiguous whether inactive experts are being skipped rather than just visually de-emphasized."
+    ],
+    "improvements": [
+      "Remove or simplify the three small white marks on the router so there is no ambiguity about extra textual/semantic elements beyond 'MoE' and 'expert'.",
+      "Make the skipping of inactive experts explicit by removing arrows to the dimmed expert blocks or visually breaking/interrupting those connections, so only the active, labeled 'expert' blocks clearly receive tokens."
+    ],
+    "summary": "Most rubric items are satisfied: the style is clean and technical with a deadpan feel, the title reads exactly 'MoE', and only the active experts are labeled 'expert' with others dimmed. However, the routing does not clearly skip inactive experts, and there is slight ambiguity about extra semantic markings on the router, so it does not fully meet all rubric conditions."
+  }
+}

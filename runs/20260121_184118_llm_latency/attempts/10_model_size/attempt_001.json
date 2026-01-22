@@ -1,0 +1,20 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Model size'. Diagram: Three model blocks labeled 'small', 'medium', 'large' with a latency arrow increasing from small to large. Use a simple 'latency' arrow label. Only text: 'Model size', 'small', 'medium', 'large', 'latency'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Model size'.",
+    "No extra text appears beyond the specified labels.",
+    "Model sizes are clearly labeled.",
+    "Latency increases with size."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "To push the deadpan humor more, you could slightly exaggerate the relative block sizes or arrow length while keeping the same labels and style.",
+      "Ensure the title alignment is precisely at the very top-left margin for strict consistency with other slides in the same deck."
+    ],
+    "summary": "All rubric items are satisfied: clean technical vector style, correct title 'Model size', only specified text present, model sizes clearly labeled, and the latency arrow increases from small to large."
+  }
+}

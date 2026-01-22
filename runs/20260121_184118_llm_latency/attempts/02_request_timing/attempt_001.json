@@ -1,0 +1,21 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'TTFT vs TBT'. Diagram: A single horizontal request strip of token pills. Left segment (prompt tokens) is bracketed and labeled 'TTFT'. Right segment (output tokens) has repeated spacing and is labeled 'TBT' with a small 'x N' under the output segment. Only text: 'TTFT', 'TBT', 'x N'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'TTFT vs TBT'.",
+    "No extra text appears beyond the specified labels.",
+    "A full request token strip is visible with prompt and output segments.",
+    "The prompt segment is labeled 'TTFT'.",
+    "The output segment is labeled 'TBT' and marked with 'x N'."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "The title styling currently uses a heavier, more prominent weight and underline; consider simplifying it slightly to feel even more understated to better match a deadpan corporate tone.",
+      "Increase the visual emphasis on the bracket shapes around TTFT and TBT just a bit to make the segmentation of the prompt vs output strip even clearer at a glance. Possibly lighten the divider line between segments for subtlety while keeping contrast."
+    ],
+    "summary": "All rubric items are satisfied: the slide has a clean corporate technical diagram style, the title text is exactly 'TTFT vs TBT', only the specified text labels appear, the full token strip with prompt and output segments is visible, the left segment is labeled 'TTFT', and the right segment is labeled 'TBT' with 'x N' under the output segment. The design passes with only minor optional refinements suggested."
+  }
+}

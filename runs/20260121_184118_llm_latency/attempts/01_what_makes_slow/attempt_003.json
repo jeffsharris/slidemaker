@@ -1,0 +1,22 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'What makes it slow?'. Diagram: A signpost pointing to a schematic request conveyor with token pills, and a small warning triangle. Only text: 'What makes it slow?'. Refinements: Remove the exclamation mark from the warning triangle so it becomes a purely graphical caution icon with no internal symbol.; Optionally reduce the triangle\u2019s size slightly further to emphasize its minor, non-dominant caution role while keeping the existing clean technical vector style and layout..",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'What makes it slow?'.",
+    "No extra text appears beyond the specified labels.",
+    "The slide clearly reads as a section opener."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.5,
+    "failures": [
+      "Extra text appears on the slide beyond the specified labels: the signpost contains the words 'Request' and 'Processing', which are not allowed by the prompt specifying only the text 'What makes it slow?'.",
+      "While the overall illustration is clean and technical, the presence of labeled signpost text slightly breaks the strict 'only specified text' requirement, weakening the deadpan corporate-technical minimalism requested."
+    ],
+    "improvements": [
+      "Remove all textual labels from the diagram itself, specifically delete the words 'Request' and 'Processing' from the signpost so the only text on the slide is the title 'What makes it slow?'.",
+      "Keep the existing clean vector style, muted colors, and subtle humor, but ensure all remaining diagram elements (conveyor, pills, signpost, warning triangle) are purely graphical with no additional text."
+    ],
+    "summary": "The visual style and section-opener feel work, and the title is correct, but the slide fails due to extra text ('Request', 'Processing') that violates the requirement that only 'What makes it slow?' appear as text."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Input vs output'. Diagram: A single request strip: input tokens have small cost squares, output tokens have larger cost squares. Labels 'input' and 'output'. Only text: 'Input vs output', 'input', 'output'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Input vs output'.",
+    "No extra text appears beyond the specified labels.",
+    "Input and output segments are labeled.",
+    "Output segment shows higher cost visually."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 10.0,
+    "failures": [],
+    "improvements": [
+      "Deadpan humor aspect is somewhat subtle; consider a slightly more exaggerated size contrast or a faintly ironic visual cue to more clearly convey the humorous intent while keeping the corporate feel."
+    ],
+    "summary": "All rubric items are satisfied: clean technical style with subtle shadows, correct title 'Input vs output' in the top-left, only the specified text appears, both input and output segments are clearly labeled, and the output segment visually shows higher cost through larger squares."
+  }
+}

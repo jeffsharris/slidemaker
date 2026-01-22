@@ -1,0 +1,24 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Capacity'. Diagram: ONE server chassis labeled 'server' at center. Two request queues feed it: a long queue on the left and a short queue on the right. A plus sign between the queues indicates added capacity. No second server. Only text: 'Capacity', 'server'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Capacity'.",
+    "No extra text appears beyond the specified labels.",
+    "Exactly one server chassis is shown and it is labeled 'server'.",
+    "Two request queues of different length feed the same server (one longer, one shorter).",
+    "A plus sign indicates added capacity."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.67,
+    "failures": [
+      "No extra text appears beyond the specified labels.",
+      "Two request queues of different length feed the same server (one longer, one shorter)."
+    ],
+    "improvements": [
+      "Remove all arrow glyphs and any other non-specified textual/character markings so that only the words 'Capacity' and 'server' appear on the slide.",
+      "Redraw the right-hand side so that it is clearly a second request queue feeding into the same server (visually similar style to the left queue but shorter, positioned as an input rather than output)."
+    ],
+    "summary": "The style, title text, single server labeled 'server', and plus sign are correct. However, there are arrow glyphs that count as extra text/characters beyond the specified labels, and the right-hand blocks are shown as an output queue rather than a second input queue feeding the server."
+  }
+}

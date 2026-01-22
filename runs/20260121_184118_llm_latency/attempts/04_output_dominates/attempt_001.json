@@ -1,0 +1,23 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Why output dominates'. Diagram: A short input block goes through one compute block once. Then a long chain of output tokens each passes through repeated identical compute blocks, showing sequential steps. Only text: 'Why output dominates'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Why output dominates'.",
+    "No extra text appears beyond the specified labels.",
+    "Output tokens are shown going through repeated compute blocks sequentially.",
+    "Input appears processed once while output repeats many steps."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.6,
+    "failures": [
+      "The slide contains extra text beyond the specified labels: 'Input', 'Compute', and multiple 'Output' labels appear even though the prompt says the only text should be 'Why output dominates'.",
+      "The prompt requested that the only text be 'Why output dominates', but the compute and token blocks are labeled with additional words, violating the 'No extra text appears beyond the specified labels' rubric item."
+    ],
+    "improvements": [
+      "Remove all text from within the blocks so that the only text on the slide is the title 'Why output dominates'. Use icons, shapes, or unlabeled blocks to represent input, compute, and output tokens while keeping the sequential structure.",
+      "Ensure future diagrams strictly follow the text constraints in the prompt, using visual symbolism instead of labels when additional annotation would violate the rubric."
+    ],
+    "summary": "Visual style and structural logic match the requested concept (one input compute vs. many repeated output computes), but the presence of additional labels like 'Input', 'Compute', and 'Output' violates the requirement that the only text on the slide be the title 'Why output dominates', so the slide does not pass."
+  }
+}

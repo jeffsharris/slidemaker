@@ -1,0 +1,24 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'What makes it slow?'. Diagram: A signpost pointing to a schematic request conveyor with token pills, and a small warning triangle. Only text: 'What makes it slow?'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'What makes it slow?'.",
+    "No extra text appears beyond the specified labels.",
+    "The slide clearly reads as a section opener."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.6,
+    "failures": [
+      "Extra text beyond the specified labels appears: 'REQUESTS' and 'SLOW PROCESS' on the signpost, and an exclamation-mark icon on the warning triangle instead of being text-free.",
+      "The warning triangle is not small relative to the rest of the diagram; it is fairly prominent under the machine.",
+      "Prompt requested 'Only text: \"What makes it slow?\"', but additional words are present on the slide."
+    ],
+    "improvements": [
+      "Remove all text except the title 'What makes it slow?'. The signpost and any icons (including the warning triangle) should be purely graphical with no letters or symbols.",
+      "Ensure the warning triangle is visually smaller and more subtle so it reads as a minor caution element rather than a dominant label.",
+      "Keep the existing clean technical vector style, subtle shadows, and layout, as these already satisfy the deadpan corporate look and section-opener feel."
+    ],
+    "summary": "The visual style and section-opener feel are strong, but the slide fails the strict text constraint by including extra labels and symbols beyond the required title, and the warning triangle is not particularly small."
+  }
+}

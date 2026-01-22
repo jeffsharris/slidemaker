@@ -1,0 +1,24 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'LLM Latency'. Diagram: A large chat bubble with three loading dots, a small queue of office workers waiting with coffee cups, and a tiny hourglass. Subtle humor, not childish. Only text: 'LLM Latency'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'LLM Latency'.",
+    "No extra text appears beyond the specified labels.",
+    "The slide reads as a cover/title slide.",
+    "A chat bubble with loading dots and a waiting queue are visible."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Ensure the title is consistently aligned exactly at the top-left margin if a stricter template is required.",
+      "If needed, very slightly increase the size of the central chat bubble to emphasize it as the main focal point of the cover slide.'],'summary':'All rubric items are satisfied: the slide has a clean, deadpan corporate technical style; the only text is the top-left title reading exactly \u201cLLM Latency\u201d; there is a large chat bubble with three loading dots, a small queue of office workers with coffee cups, and a small hourglass; and the overall composition reads clearly as a cover/title slide.'}```json to=slide_grade\u0d24\u0d4d\u0d24\u0d3f\u0d32\u0d3e\u0d23\u0d4d```json to=slide_grade '{",
+      "'  \u092a\u094d\u0930\u0924\u093f\u0937\u094d\u0920\u093e\u0928  '",
+      ":true,",
+      "score:1,",
+      ""
+    ],
+    "summary": "'  2023  fi  ..."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'Proxy'. No logos or brand names. A fast draft stream of small tokens flows into a big checkmark gate, then exits as a batch.",
+  "rubric": [
+    "Draft tokens then a verify step is shown.",
+    "Batch validation is implied.",
+    "Title 'Proxy' is visible.",
+    "Playful style."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 0.98,
+    "failures": [],
+    "improvements": [
+      "Draft tokens are shown flowing in and out, but to emphasize the \u2018fast stream in, batch out\u2019 idea you could make the outbound side visually more compacted into clearer clusters or stacks rather than another loose stream.",
+      "Consider slightly increasing the prominence of the gate/checkmark as a \u2018verification step\u2019 by adding subtle visual cues like a glow or small icons entering and exiting at discrete points, reinforcing the notion of validation rather than just passage. \"Batch\" could also be hinted with box/bracket shapes around the outgoing group.",
+      "If this is used as a slide, the title \u2018Proxy\u2019 could be made a bit larger or bolder for presentation readability while keeping the minimal-text look."
+    ],
+    "summary": "All rubric items are clearly met: the playful pastel vector style is correct, the title \u2018Proxy\u2019 is visible in the top-left, a stream of draft tokens flows into a central checkmark gate (verification step), and the output side suggests a grouped/batch result. Only minor tweaks are needed to more overtly signal \u2018batch\u2019 and enhance slide readability."
+  }
+}

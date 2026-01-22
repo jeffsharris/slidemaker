@@ -1,0 +1,19 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'Smaller'. No logos or brand names. Small model blocks with a fast speed gauge and a cute turtle vs rabbit vibe.",
+  "rubric": [
+    "Smaller models are shown.",
+    "Speed improvement is implied.",
+    "Title 'Smaller' is visible.",
+    "Playful style."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Make the size difference between the model blocks more exaggerated to more clearly communicate 'smaller models' at a glance.",
+      "Optionally add a tiny label or icon near the blocks (e.g., chip icons with differing sizes) to more explicitly tie them to the concept of model size, not just toys."
+    ],
+    "summary": "All rubric items are met: smaller models are represented by stacks of blocks with fewer pieces, speed improvement is implied by the gauge and faster rabbit versus slower turtle, the title 'Smaller' is clearly visible in the top-left, and the overall style is playful and cute with pastel colors and rounded vector shapes."
+  }
+}

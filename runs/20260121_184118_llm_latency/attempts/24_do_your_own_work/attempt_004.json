@@ -1,0 +1,25 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Do the work'. Diagram: an oversized rubber stamp slams onto a simple slide icon, with a dramatic burst mark. The stamp face reads 'DO YOUR OWN WORK'. Only text: 'Do the work', 'DO YOUR OWN WORK'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Do the work'.",
+    "The stamp face reads exactly 'DO YOUR OWN WORK'.",
+    "No extra text appears beyond the specified labels.",
+    "A large stamp and a slide icon are clearly visible.",
+    "The composition feels intentionally over-the-top."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.83,
+    "failures": [
+      "The diagram shows a playground-style slide structure rather than a simple slide icon, making the iconography slightly more complex than specified.",
+      "The visual style leans more illustrative/cartoon than strictly clean technical diagram, which weakens the \"deadpan corporate technical diagram\" requirement."
+    ],
+    "improvements": [
+      "Simplify the slide element to a minimal slide icon (e.g., a basic rounded rectangle for a slide thumbnail or a very simple abstract slide shape) rather than a full playground slide with ladder and base.",
+      "Refine the overall illustration style toward a flatter, more schematic corporate-technical look (straighter lines, fewer playful curves, more diagram-like proportions) while keeping the existing color palette and shadows.",
+      "Reduce any playful visual exaggerations in the shapes themselves and express the over-the-top feel primarily through the stamp\u2019s size, angle, and impact burst to better match a deadpan corporate tone."
+    ],
+    "summary": "Most rubric items are met: correct title text, correct stamp text, no extra text, large stamp and target with an intentionally over-the-top impact. However, the slide icon is depicted as a playground slide rather than a simple slide icon, and the style is more illustrative than a strict deadpan corporate technical diagram, so it does not fully pass the specified rubric."
+  }
+}

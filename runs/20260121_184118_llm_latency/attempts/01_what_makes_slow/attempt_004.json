@@ -1,0 +1,19 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'What makes it slow?'. Diagram: A signpost pointing to a schematic request conveyor with token pills, and a small warning triangle. Only text: 'What makes it slow?'. Refinements: Remove all textual labels from the diagram itself, specifically delete the words 'Request' and 'Processing' from the signpost so the only text on the slide is the title 'What makes it slow?'.; Keep the existing clean vector style, muted colors, and subtle humor, but ensure all remaining diagram elements (conveyor, pills, signpost, warning triangle) are purely graphical with no additional text..",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'What makes it slow?'.",
+    "No extra text appears beyond the specified labels.",
+    "The slide clearly reads as a section opener."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 0.98,
+    "failures": [],
+    "improvements": [
+      "Increase the visual emphasis of the title slightly (size/weight or spacing) to make its role as a section opener even more obvious.",
+      "Consider aligning the title a bit closer to the left margin or adding a subtle section marker so it reads unmistakably as the start of a new section in a deck."
+    ],
+    "summary": "All rubric items are satisfied: the slide uses a clean, deadpan technical diagram style; the only text is the correctly placed title 'What makes it slow?'; the diagram elements are purely graphical with no labels; and the composition clearly reads as a section opener."
+  }
+}

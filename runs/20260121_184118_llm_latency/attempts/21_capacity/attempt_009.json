@@ -1,0 +1,24 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Capacity'. Diagram: ONE server chassis labeled 'server' at center. Two request queues feed it: a long queue on the left and a short queue on the right. A plus sign between the queues indicates added capacity. No second server. Only text: 'Capacity', 'server'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Capacity'.",
+    "No extra text appears beyond the specified labels.",
+    "Exactly one server chassis is shown and it is labeled 'server'.",
+    "Two request queues of different length feed the same server (one longer, one shorter).",
+    "A plus sign indicates added capacity."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.5,
+    "failures": [
+      "Extra text beyond specified labels appears: 'Long queue' and 'Short queue' are present in addition to 'Capacity' and 'server'.",
+      "The two request queues are not both feeding into the same server; the long queue feeds the server, and the short queue appears on the output side of the server instead of as a second input queue."
+    ],
+    "improvements": [
+      "Remove the 'Long queue' and 'Short queue' captions so that the only text on the slide is 'Capacity' (title) and 'server' (label on the chassis).",
+      "Rearrange the diagram so that there are two incoming queues of different length, both visually feeding into the single central server (e.g., arrows from both queues pointing to the server), rather than depicting the short queue as an output."
+    ],
+    "summary": "Diagram style, title text, single labeled server chassis, and plus sign all meet the rubric, but extra labels and incorrect queue arrangement cause the slide to fail."
+  }
+}

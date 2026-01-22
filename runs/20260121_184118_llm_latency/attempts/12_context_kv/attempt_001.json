@@ -1,0 +1,20 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Context + KV'. Diagram: A request strip with increasing context length feeding into a KV cache block that grows taller. Label the cache 'KV'. Only text: 'Context + KV', 'KV'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Context + KV'.",
+    "No extra text appears beyond the specified labels.",
+    "KV cache growth is visually tied to longer context.",
+    "A KV block is labeled."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "If you want the deadpan humor to read more clearly, you could exaggerate the mismatch between the tiny request strip and the oversized KV stack slightly more, while keeping the clean corporate style.",
+      "Consider making the progression of context length a bit more explicit (e.g., a subtle gradient or segmented growth) so the visual tie between longer context and taller KV is even clearer. Otherwise, the slide already meets the rubric well."
+    ],
+    "summary": "All rubric items are satisfied: the style is clean and technical with a dry, deadpan feel; the title text is exactly 'Context + KV' in the top-left; no extra text beyond 'Context + KV' and 'KV' appears; the taller KV stack is visually linked to the longer request strip via the arrow; and the KV block is clearly labeled 'KV'."
+  }
+}

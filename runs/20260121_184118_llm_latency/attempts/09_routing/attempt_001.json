@@ -1,0 +1,20 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Routing'. Diagram: A simplified world map with multiple data center nodes connected by network lines. A request arrow chooses between two distant clusters. Only text: 'Routing'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Routing'.",
+    "No extra text appears beyond the specified labels.",
+    "Multiple data center nodes and network lines are visible.",
+    "Routing choice is implied (arrows)."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Push the deadpan humor slightly further, e.g., through a subtly exaggeratedly neat layout or very understated visual gag that still fits a corporate style.",
+      "Increase the cyan and safety orange accent presence slightly in the network lines or node highlights to make the accent palette more prominent while keeping it muted."
+    ],
+    "summary": "All rubric items are satisfied: clean technical vector style, title text exactly 'Routing' in the top-left, no extra text, multiple data center nodes with visible network lines, and a clear routing choice implied by two divergent arrows from a central node."
+  }
+}

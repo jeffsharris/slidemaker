@@ -1,0 +1,154 @@
+{
+  "slides": [
+    {
+      "id": "00_cover",
+      "title": "What matters",
+      "intent": "Cover slide stating what really matters in LLM latency.",
+      "notes": "Same waiting chat motif; new title."
+    },
+    {
+      "id": "01_what_makes_slow",
+      "title": "What makes it slow?",
+      "intent": "Section opener for what makes LLMs slow.",
+      "notes": "Section opener."
+    },
+    {
+      "id": "02_request_timing",
+      "title": "TTFT vs TBT",
+      "intent": "Show a single request as tokens; prompt tokens labeled TTFT, output tokens labeled TBT. Output time is TBT times number of output tokens.",
+      "notes": "Token strip with labels."
+    },
+    {
+      "id": "03_end_to_end",
+      "title": "End-to-end latency",
+      "intent": "End-to-end latency includes network, queue, prefill, decode, and service time.",
+      "notes": "Pipeline with labeled segments."
+    },
+    {
+      "id": "04_output_dominates",
+      "title": "Why output dominates",
+      "intent": "Technical explanation: decode is sequential and repeats full forward pass per token.",
+      "notes": "Sequential compute blocks."
+    },
+    {
+      "id": "05_tradeoffs",
+      "title": "Tradeoffs",
+      "intent": "Tradeoff between capability, cost, latency.",
+      "notes": "Triangle diagram."
+    },
+    {
+      "id": "06_latency_throughput",
+      "title": "Trade-off Between Latency and Throughput",
+      "intent": "Scatter plot with many points; trend upward.",
+      "notes": "Dense scatter plot."
+    },
+    {
+      "id": "07_congestion",
+      "title": "Congestion",
+      "intent": "Queueing delays grow with more requests.",
+      "notes": "Queue diagram."
+    },
+    {
+      "id": "08_batching",
+      "title": "Batching",
+      "intent": "Show stacking multiple requests into a single forward pass.",
+      "notes": "Stacked batch into GPU."
+    },
+    {
+      "id": "09_routing",
+      "title": "Routing",
+      "intent": "Global routing across data centers.",
+      "notes": "World map with nodes."
+    },
+    {
+      "id": "10_model_size",
+      "title": "Model size",
+      "intent": "Larger models are slower.",
+      "notes": "Model blocks with latency arrow."
+    },
+    {
+      "id": "11_input_vs_output",
+      "title": "Input vs output",
+      "intent": "Input tokens are cheaper than output tokens.",
+      "notes": "Request strip with cost weights."
+    },
+    {
+      "id": "12_context_kv",
+      "title": "Context + KV",
+      "intent": "Longer context grows KV cache and memory pressure.",
+      "notes": "KV growth with context length."
+    },
+    {
+      "id": "13_cached_prefix",
+      "title": "Cached prefix",
+      "intent": "Cached prompt segments are cheap; uncached are not.",
+      "notes": "Prompt bar with cached section."
+    },
+    {
+      "id": "14_long_requests",
+      "title": "Long requests",
+      "intent": "Long requests cost more due to batching difficulty and quadratic growth.",
+      "notes": "Wide requests + curve."
+    },
+    {
+      "id": "15_speedups",
+      "title": "Speedups",
+      "intent": "Section opener for speedups.",
+      "notes": "Speedometer."
+    },
+    {
+      "id": "16_smaller_models",
+      "title": "Smaller models",
+      "intent": "Use smaller models to go faster.",
+      "notes": "Shrink model blocks."
+    },
+    {
+      "id": "17_moe",
+      "title": "MoE",
+      "intent": "Experts and skipping inactive experts.",
+      "notes": "Router to experts."
+    },
+    {
+      "id": "18_proxy",
+      "title": "Proxy model",
+      "intent": "Predict a swatch of output tokens at once, then verify.",
+      "notes": "Draft and verify swatch."
+    },
+    {
+      "id": "19_quantization",
+      "title": "Quantization",
+      "intent": "Lower precision tokens/weights speed inference.",
+      "notes": "Precision ladder."
+    },
+    {
+      "id": "20_kv_cache",
+      "title": "KV cache",
+      "intent": "Smarter KV cache policies improve speed.",
+      "notes": "Cache reuse vs eviction."
+    },
+    {
+      "id": "21_capacity",
+      "title": "Capacity",
+      "intent": "Adding capacity reduces queues.",
+      "notes": "More GPUs."
+    },
+    {
+      "id": "22_wafer",
+      "title": "Wafer-scale",
+      "intent": "Single giant wafer-scale chip for faster tokens.",
+      "notes": "Huge wafer."
+    },
+    {
+      "id": "23_what_really_matters",
+      "title": "What matters",
+      "intent": "Over-the-top deadpan slide: what really matters is doing the work, not just latency.",
+      "notes": "Same waiting motif with priority badge."
+    },
+    {
+      "id": "24_do_your_own_work",
+      "title": "Do the work",
+      "intent": "Over-the-top joke slide: the real lesson is doing your own work.",
+      "notes": "Giant stamp slams a slide icon; deadpan humor."
+    }
+  ]
+}

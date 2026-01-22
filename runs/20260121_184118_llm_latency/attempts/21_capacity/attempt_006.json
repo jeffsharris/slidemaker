@@ -1,0 +1,26 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Capacity'. Diagram: ONE server chassis labeled 'server' with a visible GPU bay. Show a plus sign adding extra GPUs inside the SAME chassis, not a second server. A queue of request strips feeds the chassis; the queue is visibly shorter after the added GPUs within the same diagram. Only text: 'Capacity', 'server'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Capacity'.",
+    "No extra text appears beyond the specified labels.",
+    "Exactly one server chassis is shown and it is labeled 'server'.",
+    "Additional GPUs are shown added inside the same chassis.",
+    "The queue becomes shorter after the GPUs are added."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.5,
+    "failures": [
+      "Diagram shows two separate server chassis instead of a single chassis with added GPUs inside the same unit.",
+      "Queue is depicted as separate input (left) and output (right) rather than a single queue that is visibly shorter after GPUs are added within one diagram.",
+      "Diagram uses a plus sign between two servers rather than a plus sign adding GPUs inside the same chassis."
+    ],
+    "improvements": [
+      "Redraw the central diagram to show only one server chassis labeled 'server', with an internal GPU bay where additional GPUs are added; the plus sign should visually indicate adding GPUs inside that single chassis, not adding another server.",
+      "Represent the request queue as one contiguous queue feeding the server, and in the same scene show that queue shorter after the GPUs are added (e.g., a before/after segment around the same server) instead of separate left/right flows.",
+      "Remove the second server illustration so there is exactly one chassis on the slide, and keep the existing clean, technical style, colors, and deadpan layout."
+    ],
+    "summary": "Styling and text are correct, but the concept is misrepresented: it shows adding a second server rather than adding GPUs inside the same chassis, and the queue shortening is not clearly a before/after on a single server."
+  }
+}

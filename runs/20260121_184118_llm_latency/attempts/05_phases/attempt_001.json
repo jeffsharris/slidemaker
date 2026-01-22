@@ -1,0 +1,19 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'Phases'. No logos or brand names. A left-to-right timeline split into two sections: 'TTFT' as a single block, then 'TBT' as repeating small ticks/dots.",
+  "rubric": [
+    "TTFT and TBT are shown as distinct phases.",
+    "The timeline clearly separates the two phases.",
+    "Title 'Phases' is visible.",
+    "Playful, minimal style."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 0.98,
+    "failures": [],
+    "improvements": [
+      "Further emphasize the separation between TTFT and TBT phases by adding a subtle divider or label above the timeline (e.g., a bracket or subtitle) to make the phase boundary even clearer.",
+      "Slightly enlarge or bold the TTFT and TBT text to improve legibility from a distance while preserving the minimal, playful aesthetic."
+    ],
+    "summary": "All rubric items are met. TTFT and TBT are clearly distinct, with TTFT as a single block and TBT as repeating ticks/labels along a left-to-right timeline. The title 'Phases' is visible in the top-left, and the overall design is playful, cute, minimal, and consistent with the requested pastel vector style."
+  }
+}

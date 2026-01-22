@@ -1,0 +1,20 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Do the work'. Diagram: an oversized rubber stamp slams onto a simple slide icon, with a dramatic burst mark. The stamp face reads 'DO YOUR OWN WORK'. Only text: 'Do the work', 'DO YOUR OWN WORK'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Do the work'.",
+    "The stamp face reads exactly 'DO YOUR OWN WORK'.",
+    "No extra text appears beyond the specified labels.",
+    "A large stamp and a slide icon are clearly visible.",
+    "The composition feels intentionally over-the-top."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 0.98,
+    "failures": [],
+    "improvements": [
+      "Ensure the central object being stamped is unambiguously a \u2018simple slide icon\u2019 rather than a playground slide by simplifying its form or adding subtle UI-context cues (e.g., squared corners, window frame outline) while still avoiding extra text."
+    ],
+    "summary": "All rubric requirements are met: clean, technical, deadpan style with muted palette and subtle shadows; title text is exactly \u2018Do the work\u2019 placed top-left; stamp face reads exactly \u2018DO YOUR OWN WORK\u2019; no extra text appears; a large stamp and a slide-like icon are clearly visible; and the composition is intentionally over-the-top with a dramatic burst effect. Minor possible refinement would be making the slide icon read more clearly as a slide graphic rather than a playground slide, but this doesn\u2019t violate any stated criteria."
+  }
+}

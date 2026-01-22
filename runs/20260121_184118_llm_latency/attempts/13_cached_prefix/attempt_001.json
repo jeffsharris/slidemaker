@@ -1,0 +1,20 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Cached prefix'. Diagram: A prompt bar split into a left segment labeled 'cached' and a right segment labeled 'new'. Output tokens shown after. Only text: 'Cached prefix', 'cached', 'new'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Cached prefix'.",
+    "No extra text appears beyond the specified labels.",
+    "Cached and new prompt segments are clearly labeled.",
+    "Output tokens are shown after the prompt."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "To push the deadpan humor aspect slightly further, consider a more rigidly geometric layout or exaggeratedly precise spacing, while keeping the same visual elements.",
+      "You could add very subtle variation in the output token blocks (e.g., alternating cyan/graphite pattern more clearly) to emphasize they are outputs, while maintaining the no-extra-text rule. The current version already passes the rubric."
+    ],
+    "summary": "All rubric items are satisfied: the style is a clean technical diagram with muted colors and subtle shadows; the title text is exactly 'Cached prefix' in the top-left; the only other text is 'cached' and 'new'; the prompt bar is clearly split and labeled; and output tokens are visually shown after the prompt bar. The slide passes."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'Cached prefix'. No logos or brand names. A prompt bar split into a bright 'cached' segment with a check icon and a gray 'new' segment.",
+  "rubric": [
+    "Cached segment is clearly highlighted.",
+    "Uncached portion is visible for contrast.",
+    "Title 'Cached prefix' is visible.",
+    "Playful, clean style."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Increase the brightness or saturation of the green cached segment slightly more to exaggerate the contrast with the gray new segment.",
+      "Add a subtle divider line or notch between the cached and new sections of the bar to further clarify the split.",
+      "Optionally reduce some background detail around the prompt bar so the cached/new control becomes an even clearer focal element."
+    ],
+    "summary": "All rubric items are met: the cached segment is clearly highlighted with bright color and a check icon, the uncached new segment is visible and gray for contrast, the title 'Cached prefix' is clearly readable in the top-left, and the overall style is playful, clean, and vector-based."
+  }
+}

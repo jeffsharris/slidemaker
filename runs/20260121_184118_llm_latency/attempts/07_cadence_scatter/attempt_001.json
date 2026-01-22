@@ -1,0 +1,19 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'Cadence'. No logos or brand names. A simple scatter plot with short axis labels: x='tok/min/GPU', y='ms/token'. Dots form an upward trend. Keep grid minimal.",
+  "rubric": [
+    "Scatter plot with labeled axes appears.",
+    "Axis labels are short and legible.",
+    "Dots show an upward trend.",
+    "Title 'Cadence' is visible."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Scatter plot is present and clear, but you could slightly increase axis label font size to enhance legibility at a distance.",
+      "To emphasize the upward trend more analytically, consider adding subtle tick marks or a light regression line while keeping the playful style."
+    ],
+    "summary": "All rubric items are satisfied: there is a scatter plot with labeled axes ('ms/token' and 'tok/min/GPU'), the axis labels are short and readable, the dots form a clear upward trend, and the title 'Cadence' appears prominently at the top-left."
+  }
+}

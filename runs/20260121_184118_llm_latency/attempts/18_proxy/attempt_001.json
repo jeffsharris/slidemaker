@@ -1,0 +1,20 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Proxy model'. Diagram: A proxy model outputs a block of 5 tokens at once (a swatch), then a verify gate checks them. Label 'draft' and 'verify'. Only text: 'Proxy model', 'draft', 'verify'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Proxy model'.",
+    "No extra text appears beyond the specified labels.",
+    "A block of multiple output tokens is generated at once.",
+    "There is a verify gate after the draft."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Lean slightly harder into the deadpan humor brief by adding a subtly amusing visual detail (without adding any new text), such as an overly serious alignment of shapes or a faintly exaggerated verification icon.",
+      "Increase the visual suggestion that the swatch is exactly five tokens by slightly separating or numbering them visually (but without text), ensuring the block nature is unmistakable. The current design already shows five, but a touch more spacing contrast could make it clearer."
+    ],
+    "summary": "All rubric items are satisfied: the slide has a clean corporate technical style with muted tones and subtle shadows; the title in the top-left reads exactly 'Proxy model'; the only other text is 'draft' and 'verify'; a block of five tokens is shown as a swatch; and a verify gate appears after the draft block. The slide passes."
+  }
+}

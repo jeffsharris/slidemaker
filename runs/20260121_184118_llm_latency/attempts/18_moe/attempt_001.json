@@ -1,0 +1,20 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'MoE'. No logos or brand names. A router sends tokens to only a few expert blocks; unused experts are dimmed. Label 'MoE'.",
+  "rubric": [
+    "Routing to a subset of experts is visible.",
+    "Some experts appear inactive.",
+    "Title 'MoE' is visible.",
+    "Playful, clear composition."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Routing to subset of experts is clear, but you could strengthen it further by adding subtle arrows or motion lines specifically from the router to only the active experts to emphasize selective routing.",
+      "Dim the inactive experts a bit more or add a light outline to better distinguish active vs inactive at a quick glance.",
+      "Optionally add a tiny label near the expert cluster (e.g., small text \u2018experts\u2019) to make the concept even more immediately recognizable without cluttering the playful composition."
+    ],
+    "summary": "All rubric items are satisfied: the router clearly routes tokens to a subset of brighter, active expert blocks while others are visibly dimmed; the title \u2018MoE\u2019 is present in the top-left; and the overall style is playful, cute, and clean with a clear central composition."
+  }
+}

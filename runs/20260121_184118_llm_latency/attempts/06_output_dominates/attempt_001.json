@@ -1,0 +1,19 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'Output'. No logos or brand names. A row of token pills generated one-by-one, each step adds a small clock tick. Show a long chain of output tokens vs a short input block.",
+  "rubric": [
+    "Output tokens appear sequential and longer than input.",
+    "The visual implies each token adds time.",
+    "Title 'Output' is visible.",
+    "Playful, friendly style."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 0.95,
+    "failures": [],
+    "improvements": [
+      "Make the sequential nature of token generation even clearer by adding a subtle directional cue (e.g., a faint arrow or gradient from input block to last token).",
+      "Slightly emphasize the contrast between the short input stack and the long output chain, perhaps by moving the smaller input block closer to the main chain or labeling them subtly as \u2018Input\u2019 vs \u2018Output\u2019 for extra clarity (if text is acceptable)."
+    ],
+    "summary": "All rubric items are met: the output token chain is clearly longer than the small input block, the clocks and varied hand positions visually imply each token adds time, the title \u2018Output\u2019 is visible in the top-left, and the overall style is playful, rounded, pastel, and friendly. Only minor clarity tweaks are suggested."
+  }
+}

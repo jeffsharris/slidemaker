@@ -1,0 +1,19 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Tradeoffs'. Diagram: A simple triangle with corners labeled 'capability', 'cost', 'latency'. Only text: 'Tradeoffs', 'capability', 'cost', 'latency'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Tradeoffs'.",
+    "No extra text appears beyond the specified labels.",
+    "Triangle shows capability, cost, and latency corners."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Increase the sense of \u2018deadpan humor\u2019 slightly, perhaps through more exaggeratedly minimal styling or subtle visual irony while maintaining the clean corporate look.",
+      "Enhance the subtle shadows or depth on the triangle to emphasize the \u2018technical diagram\u2019 aesthetic even more."
+    ],
+    "summary": "All rubric items are satisfied: the slide uses a clean technical vector style, the title is exactly 'Tradeoffs' in the top-left, no extra text is present, and the triangle clearly has corners labeled 'capability', 'cost', and 'latency'."
+  }
+}

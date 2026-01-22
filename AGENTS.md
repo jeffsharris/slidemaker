@@ -39,6 +39,12 @@ Use `--max-attempts 0` to keep retrying until all slides pass.
 slidemaker report --run <run_id>
 ```
 
+8) Export a full-bleed PDF
+```
+slidemaker export-pdf --run <run_id>
+```
+Omit `--run` to use the latest run directory.
+
 ## Tips for better results
 
 - Be explicit about composition, layout, and placement if the concept depends on structure.
@@ -52,6 +58,7 @@ slidemaker report --run <run_id>
 - `runs/<run_id>/slides.json` - slide list with prompts/rubrics
 - `runs/<run_id>/index.json` - attempt log and grading outcomes
 - `runs/<run_id>/final/` - approved images for the deck
+- `runs/<run_id>/exports/` - versioned PDF exports
 - `runs/<run_id>/report.html` - static viewer
 - `runs/<run_id>/critiques/` - saved critique logs and layout feedback
 

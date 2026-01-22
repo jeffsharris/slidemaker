@@ -1,0 +1,26 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Capacity'. Diagram: ONE server chassis labeled 'server' at center. Two request queues feed it: a long queue on the left and a short queue on the right. A plus sign between the queues indicates added capacity. No second server. Only text: 'Capacity', 'server'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Capacity'.",
+    "No extra text appears beyond the specified labels.",
+    "Exactly one server chassis is shown and it is labeled 'server'.",
+    "Two request queues of different length feed the same server (one longer, one shorter).",
+    "A plus sign indicates added capacity."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.5,
+    "failures": [
+      "Two request queues do not both feed into the same server; the long queue is shown feeding into a plus sign and then the server, while the short queue is shown after the server as an output queue.",
+      "The plus sign does not clearly indicate added capacity between two input queues; it is visually between the long queue and the server, not between two queues.",
+      "Overall diagram concept does not match the prompt\u2019s requirement of two queues (one long, one short) both feeding the same single server."
+    ],
+    "improvements": [
+      "Redraw the flows so that both the long and the short request queues have arrows pointing into the single central server chassis, clearly showing two inputs to one server.",
+      "Place the plus sign between the two queues themselves to indicate added capacity from combining or adding another queue, not between a queue and the server.",
+      "Ensure the short queue is visually an input queue on the right (or left) side of the server rather than an output, so it\u2019s unambiguously feeding the server. The rest of the style, title text, and labeling can remain as is, since they already meet the rubric."
+    ],
+    "summary": "Visual style, title, and labeling are correct, but the logical structure of the diagram is wrong: the short queue appears as an output, not a second input feeding the same server, and the plus sign is misplaced."
+  }
+}

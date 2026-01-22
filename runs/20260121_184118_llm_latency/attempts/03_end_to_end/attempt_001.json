@@ -1,0 +1,17 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'End-to-end latency'. Diagram: A single horizontal pipeline bar split into labeled segments: 'network', 'queue', 'prefill', 'decode', 'service'. Only text: 'End-to-end latency', 'network', 'queue', 'prefill', 'decode', 'service'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'End-to-end latency'.",
+    "No extra text appears beyond the specified labels.",
+    "Pipeline includes network, queue, prefill, decode, and service segments.",
+    "Labels are short and legible."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [],
+    "summary": "All rubric items satisfied: correct title text, only specified labels, all required pipeline segments present and legible, and the visual style matches a clean, deadpan corporate technical diagram."
+  }
+}

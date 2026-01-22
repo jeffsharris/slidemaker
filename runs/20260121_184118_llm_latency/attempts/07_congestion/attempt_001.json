@@ -1,0 +1,20 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Congestion'. Diagram: Multiple request strips entering a single service lane, forming a visible queue. A clock icon shows delay. Only text: 'Congestion'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Congestion'.",
+    "No extra text appears beyond the specified labels.",
+    "A queue of requests is visible entering a bottleneck.",
+    "Delay is indicated (clock or hourglass)."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Lean slightly harder into the deadpan humor by adding a subtly exaggerated detail (e.g., an overfilled last queue cell) while keeping it non-textual and technical.",
+      "Ensure the title is consistently aligned with other slides in the same deck (exact margins and spacing) for perfect consistency."
+    ],
+    "summary": "All rubric items are satisfied: clean technical style with subtle shadows and corporate palette, title text exactly 'Congestion' in the top-left, no extra text, a clear queue of multiple incoming request arrows funneled into a single service lane, and a clock icon indicating delay. The slide passes fully."
+  }
+}

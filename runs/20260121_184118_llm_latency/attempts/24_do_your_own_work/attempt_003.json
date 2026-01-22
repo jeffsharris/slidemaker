@@ -1,0 +1,24 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Do the work'. Diagram: an oversized rubber stamp slams onto a simple slide icon, with a dramatic burst mark. The stamp face reads 'DO YOUR OWN WORK'. Only text: 'Do the work', 'DO YOUR OWN WORK'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Do the work'.",
+    "The stamp face reads exactly 'DO YOUR OWN WORK'.",
+    "No extra text appears beyond the specified labels.",
+    "A large stamp and a slide icon are clearly visible.",
+    "The composition feels intentionally over-the-top."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.83,
+    "failures": [
+      "The diagram shows a playground slide rather than a recognizable presentation slide icon as requested.",
+      "The background object being stamped is not clearly identifiable as a slide *icon*; it looks like a physical playground slide."
+    ],
+    "improvements": [
+      "Redesign the stamped object to be an unmistakable presentation slide icon (e.g., a rectangle with a title bar or border, possibly on a stand) instead of a playground slide.",
+      "Use more conventional slide-icon visual cues (simple rectangle, minimal perspective, maybe a small stand or frame) to make the subject clearly match the prompt."
+    ],
+    "summary": "Most rubric items are met: clean technical vector style with deadpan humor, correct title text 'Do the work', correct stamp text 'DO YOUR OWN WORK', no extra text, large stamp clearly visible, and an over-the-top composition. However, the object under the stamp is visually a playground slide rather than a clear slide icon, so it does not fully satisfy the requirement for a simple slide icon being stamped."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Batching'. Diagram: Several request strips stacked into a single rectangular batch box feeding into a GPU block labeled 'GPU'. Show a single forward pass arrow. Only text: 'Batching', 'GPU'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Batching'.",
+    "No extra text appears beyond the specified labels.",
+    "Multiple requests are stacked into one batch.",
+    "The batch feeds a GPU block in one forward pass."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 6.0,
+    "failures": [
+      "Extra text 'Batch' appears inside the batch box, violating the requirement that only 'Batching' and 'GPU' appear as text.",
+      "Diagram text does not strictly follow the 'only exact text specified' constraint; 'Batch' is not allowed."
+    ],
+    "improvements": [
+      "Remove the word 'Batch' from inside the batch box so that the only text on the slide is the title 'Batching' and the GPU label 'GPU'.",
+      "After removing the extra label, keep the stacked colored strips visually implying multiple requests forming a batch feeding into the GPU via the single forward-pass arrow; no further text changes needed."
+    ],
+    "summary": "The visual style, title placement, stacked requests, and single forward-pass arrow into the GPU are correct, but the slide fails because it includes unauthorized extra text ('Batch')."
+  }
+}

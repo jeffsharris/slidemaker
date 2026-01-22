@@ -1,0 +1,20 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Batching'. Diagram: Several request strips stacked into a single rectangular batch box feeding into a GPU block labeled 'GPU'. Show a single forward pass arrow. Only text: 'Batching', 'GPU'. Refinements: Remove the word 'Batch' from inside the batch box so that the only text on the slide is the title 'Batching' and the GPU label 'GPU'.; After removing the extra label, keep the stacked colored strips visually implying multiple requests forming a batch feeding into the GPU via the single forward-pass arrow; no further text changes needed..",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Batching'.",
+    "No extra text appears beyond the specified labels.",
+    "Multiple requests are stacked into one batch.",
+    "The batch feeds a GPU block in one forward pass."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "To emphasize deadpan corporate humor, you could make the arrow or GPU block slightly oversized or exaggerated while keeping the current clean style.",
+      "Consider adding even subtler shadows or slightly more consistent spacing around the stacked strips and GPU block for an even more polished technical-diagram look."
+    ],
+    "summary": "All rubric items are satisfied: clean technical style, title exactly 'Batching', only extra text is 'GPU', multiple stacked strips clearly imply several requests forming a batch, and that batch feeds a GPU block via a single forward-pass arrow."
+  }
+}

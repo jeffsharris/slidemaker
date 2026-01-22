@@ -17,6 +17,17 @@ def run_dir(base_dir: Path, run_id: str) -> Path:
     return runs_root(base_dir) / run_id
 
 
+def latest_run_id(base_dir: Path) -> str:
+    root = runs_root(base_dir)
+    if not root.exists():
+        raise SystemExit("No runs directory found")
+    candidates = [path for path in root.iterdir() if path.is_dir()]
+    if not candidates:
+        raise SystemExit("No runs available")
+    latest = max(candidates, key=lambda path: path.stat().st_mtime)
+    return latest.name
+
+
 def ensure_run_dirs(base_dir: Path, run_id: str) -> dict[str, Path]:
     root = run_dir(base_dir, run_id)
     attempts = root / "attempts"

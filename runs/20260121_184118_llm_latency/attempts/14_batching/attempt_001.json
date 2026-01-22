@@ -1,0 +1,19 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'Batching'. No logos or brand names. Ramp light shows short green pulses releasing a few cars (low batch) and long red wait then a big release (high batch).",
+  "rubric": [
+    "Ramp light pulses are visible.",
+    "Low batch vs high batch is implied.",
+    "Title 'Batching' is visible.",
+    "Playful, minimal style."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 0.98,
+    "failures": [],
+    "improvements": [
+      "Make the contrast between short green pulses (low batch) and long red wait (high batch) even clearer, e.g., by adding a subtle clock icon or time indicators near the red light.",
+      "To emphasize minimal text, consider slightly reducing the number of separate scenes or merging them into one clearer before/after comparison while keeping the playful style."
+    ],
+    "summary": "All rubric items are met: the ramp light pulses are clearly visible around the green and red lights, low vs high batch behavior is implied by a few cars flowing versus a long queue then large release, the title 'Batching' is visible in the top-left, and the overall style is playful, cute, and minimal with pastel colors and soft shadows."
+  }
+}

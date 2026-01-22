@@ -1,0 +1,20 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'KV cache'. Diagram: A KV cache block with reuse arrows and a small dimmed eviction bin labeled 'evict'. Only text: 'KV cache', 'evict'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'KV cache'.",
+    "No extra text appears beyond the specified labels.",
+    "Reuse arrows appear in the KV cache.",
+    "Eviction is shown but de-emphasized."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 0.96,
+    "failures": [],
+    "improvements": [
+      "Deadpan humor aspect is minimal; consider a slightly more ironically formal or exaggeratedly serious visual touch (while staying text-free) to better read as \u2018deadpan\u2019 rather than purely neutral corporate.",
+      "Eviction bin could be even more visually de-emphasized (e.g., lighter opacity or smaller size) to further contrast with the bold reuse arrows and central KV block."
+    ],
+    "summary": "All rubric items are met: the slide has a clean corporate technical style, the title text is exactly 'KV cache' in the top-left, only the allowed labels ('KV cache', 'evict') are present, reuse arrows are clearly shown around the KV cache block, and eviction is represented by a dimmed trash bin labeled 'evict' that\u2019s visually de-emphasized relative to the main diagram."
+  }
+}

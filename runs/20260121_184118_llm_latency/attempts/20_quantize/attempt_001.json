@@ -1,0 +1,20 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'Quantize'. No logos or brand names. A chip with a bit ladder: 16-bit -> 8-bit -> 4-bit, and a speed arrow increasing.",
+  "rubric": [
+    "Lower precision steps are shown.",
+    "Speed increase is implied.",
+    "Title 'Quantize' is visible.",
+    "Playful style."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Clarify the directionality of the precision ladder by adding a subtle down arrow or label like 'lower precision' from 16-bit to 4-bit so the reduction is explicitly communicated.",
+      "Reinforce the speed concept by adding a small speed-related icon or label (e.g., a stopwatch or the word 'faster') near the rising arrow to remove any ambiguity about what is increasing.",
+      "Increase the prominence of the title 'Quantize' slightly (size or contrast) so it stands out more as a slide title in presentation contexts."
+    ],
+    "summary": "All rubric items are met: the 16-bit \u2192 8-bit \u2192 4-bit ladder clearly shows lower precision steps, the large rising arrow behind the chip implies speed increase, the word 'Quantize' is visible at the top-left, and the overall illustration is playful, cute, and pastel. Only minor clarifications could make the message even more explicit."
+  }
+}

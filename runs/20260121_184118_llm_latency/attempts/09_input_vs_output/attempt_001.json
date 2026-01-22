@@ -1,0 +1,20 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'Input vs output'. No logos or brand names. Two horizontal lanes: top 'input' with small cheap token pills, bottom 'output' with larger expensive pills and a longer time bar.",
+  "rubric": [
+    "Input and output are labeled.",
+    "Output appears more expensive or slower.",
+    "Title 'Input vs output' is visible.",
+    "Playful, clear composition."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 9.5,
+    "failures": [],
+    "improvements": [
+      "To emphasize that output is slower, exaggerate the time bar difference further (e.g., make the top bar clearly shorter and lighter, the bottom bar much longer and fully filled).",
+      "To make the \u2018more expensive\u2019 idea even clearer, consider subtle visual cues like sparkles, shine, or a tiny coin/icon near the output pills while keeping the composition minimal.",
+      "Increase overall centrality of the two lanes (move them slightly closer together and toward the center) so the illustration reads even more obviously as one cohesive \u2018before/after\u2019 comparison."
+    ],
+    "summary": "All rubric items are met: both lanes are clearly labeled Input and Output, the output lane conveys higher value with larger, more elaborate pills and a heart, the title 'Input vs output' is visible at the top, and the style is playful, pastel, and cleanly composed. Minor tweaks could further stress the slower/more expensive nature of the output."
+  }
+}

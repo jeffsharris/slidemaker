@@ -1,0 +1,22 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Trade-off Between Latency and Throughput'. Diagram: A scatter plot with many dots (50+). X-axis labeled 'tok/min/GPU', Y-axis labeled 'ms/token'. Trend is upward but noisy. Only text: 'Trade-off Between Latency and Throughput', 'tok/min/GPU', 'ms/token'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Trade-off Between Latency and Throughput'.",
+    "No extra text appears beyond the specified labels.",
+    "Scatter plot has many points and a noisy upward trend.",
+    "Axes are labeled 'tok/min/GPU' and 'ms/token'."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.8,
+    "failures": [
+      "X-axis label includes an extra arrow symbol not specified in the prompt ('tok/min/GPU \u2192' instead of exactly 'tok/min/GPU')."
+    ],
+    "improvements": [
+      "Remove the arrow glyph from the x-axis label so the only text there is exactly 'tok/min/GPU'.",
+      "Keep all other visual elements (scatter, trend bands, colors, title placement) as they are, since they match the requested style and content."
+    ],
+    "summary": "Visual style, title text, scatter plot density/trend, and axis naming are all correct, but the x-axis label contains an extra arrow character, violating the 'no extra text' requirement."
+  }
+}

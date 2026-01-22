@@ -1,0 +1,24 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Capacity'. Diagram: ONE server chassis labeled 'server' at center. Two request queues feed it: a long queue on the left and a short queue on the right. A plus sign between the queues indicates added capacity. No second server. Only text: 'Capacity', 'server'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Capacity'.",
+    "No extra text appears beyond the specified labels.",
+    "Exactly one server chassis is shown and it is labeled 'server'.",
+    "Two request queues of different length feed the same server (one longer, one shorter).",
+    "A plus sign indicates added capacity."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.67,
+    "failures": [
+      "Two request queues are not both feeding the same server; the long queue feeds the server, and the short queue appears on the output side instead of as a second input queue.",
+      "The plus sign visually indicates combining a long queue with the server, not added capacity from a second (short) queue into the same server."
+    ],
+    "improvements": [
+      "Reposition the short queue so it is on the opposite side of the plus sign from the long queue, with both queues having arrows pointing into the same single server chassis.",
+      "Ensure the plus sign clearly represents added capacity by being between the two input queues, not between a queue and the server, and keep the server centered as the common target of both queues."
+    ],
+    "summary": "Most style and text constraints are met, but the diagram fails the requirement that two request queues of different lengths both feed the same server, with a plus sign indicating added capacity from the second queue."
+  }
+}

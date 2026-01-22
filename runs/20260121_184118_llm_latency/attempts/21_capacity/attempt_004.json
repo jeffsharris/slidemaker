@@ -1,0 +1,23 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Capacity'. Diagram: A serving engine box with GPUs; a plus sign adds more GPUs and the queue shortens. Label the engine 'server'. Only text: 'Capacity', 'server'. Refinements: Redraw the diagram so that there is one server chassis/engine depicted before and after GPU expansion within a single composite layout (e.g., left side faded/outlined as prior state and right/overlay showing added GPUs) instead of two independent servers.; Remove the 'server' label from one chassis so that only a single 'server' label is present on the serving engine.; Keep the overall clean deadpan corporate vector style, title placement, plus sign, and visible queue shortening, as these already satisfy the rubric..",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Capacity'.",
+    "No extra text appears beyond the specified labels.",
+    "Additional GPUs are added.",
+    "Queue length visibly decreases."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.6,
+    "failures": [
+      "Diagram is shown as two independent servers rather than a single composite layout with before/after GPU expansion within one chassis.",
+      "Both server chassis are labeled 'server' instead of having only a single 'server' label overall."
+    ],
+    "improvements": [
+      "Redraw the layout so that there is a single server chassis/engine shown with a clear before-and-after state in one composite diagram (e.g., left side faded/outlined as prior state and right/overlay showing additional GPUs). Remove the spatial separation that makes them look like two distinct servers.",
+      "Remove the 'server' label from one of the chassis so that only one 'server' label appears in the final composite server diagram, while keeping the existing title placement, plus sign, and queue shortening."
+    ],
+    "summary": "Styling, title text, GPU increase, and queue shortening all satisfy the rubric, but the diagram still uses two separate labeled servers instead of a single composite chassis with only one 'server' label."
+  }
+}

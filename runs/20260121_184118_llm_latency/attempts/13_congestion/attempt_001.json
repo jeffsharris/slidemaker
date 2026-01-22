@@ -1,0 +1,19 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'Congestion'. No logos or brand names. A toll booth with a growing queue of cars and a clock icon showing delay.",
+  "rubric": [
+    "Queueing is clearly shown.",
+    "Delay is implied with a clock or hourglass.",
+    "Title 'Congestion' is visible.",
+    "Playful, minimal style."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Queue length could be exaggerated further (more cars or visible backup) to make congestion even more obvious.",
+      "Reduce small extra elements (e.g., some clouds/grass) to push more emphasis onto the central tollbooth-queue-clock trio for an even more minimal feel."
+    ],
+    "summary": "All rubric items are satisfied: a clear queue of cars is visible at the toll booth, delay is indicated by a large clock and a \u201cDELAY\u201d sign, the title \u201cCongestion\u201d appears at the top left, and the overall style is playful, vector-like, minimal, and uses a soft pastel palette on an off\u2011white background."
+  }
+}

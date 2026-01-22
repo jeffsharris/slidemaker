@@ -1,0 +1,22 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Capacity'. Diagram: ONE server chassis labeled 'server' at center with a clear plus sign attached to the chassis. A short queue of 3 request strips feeds the server in the foreground. Behind it, a faint ghosted longer queue of 8 strips shows the before state. No labels near queues. No second server. Only text: 'Capacity', 'server'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Capacity'.",
+    "No extra text appears beyond the specified labels.",
+    "Exactly one server chassis is shown and it is labeled 'server'.",
+    "A plus sign is attached to the server chassis.",
+    "A short foreground queue and a faint longer background queue are both visible."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Style and color palette already match the requested deadpan corporate technical look; keep this consistent in related slides.",
+      "Ensure the title alignment and font are reused exactly in future slides for consistency.",
+      "Consider slightly increasing the contrast of the background queue to ensure it is clearly visible while remaining ghosted."
+    ],
+    "summary": "All rubric conditions are satisfied: clean technical style, correct title text, only the specified words appear, exactly one labeled server chassis with an attached plus sign, and both the short foreground queue and faint longer background queue are present."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Wafer-scale'. Diagram: A single large wafer-scale chip replaces many small chips; tokens flow quickly across it. Subtle humor via an oversized chip. Only text: 'Wafer-scale'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Wafer-scale'.",
+    "No extra text appears beyond the specified labels.",
+    "A single giant wafer-scale chip is shown.",
+    "Faster token flow is implied."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 0.96,
+    "failures": [],
+    "improvements": [
+      "Deadpan humor could be emphasized slightly more, for example by making the wafer even more comically oversized relative to the small chips while keeping the clean corporate style.",
+      "Token-flow speed implication is clear, but could be reinforced by adding more pronounced motion blur or varying arrow thickness to suggest higher throughput. Overall requirements are already met."
+    ],
+    "summary": "All rubric items are satisfied: clean corporate technical style with subtle humor, correct title text 'Wafer-scale' in the top-left, no extra text, a single oversized wafer-scale chip replacing a grid of many small chips, and arrows that clearly imply faster token flow across the large wafer. The slide passes."
+  }
+}

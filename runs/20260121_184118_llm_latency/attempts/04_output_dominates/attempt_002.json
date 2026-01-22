@@ -1,0 +1,25 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Why output dominates'. Diagram: A short input block goes through one compute block once. Then a long chain of output tokens each passes through repeated identical compute blocks, showing sequential steps. Only text: 'Why output dominates'. Refinements: Remove all text from within the blocks so that the only text on the slide is the title 'Why output dominates'. Use icons, shapes, or unlabeled blocks to represent input, compute, and output tokens while keeping the sequential structure.; Ensure future diagrams strictly follow the text constraints in the prompt, using visual symbolism instead of labels when additional annotation would violate the rubric..",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Why output dominates'.",
+    "No extra text appears beyond the specified labels.",
+    "Output tokens are shown going through repeated compute blocks sequentially.",
+    "Input appears processed once while output repeats many steps."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.6,
+    "failures": [
+      "Additional text beyond the specified title is present: the label 'Input' appears under the first block.",
+      "The prompt refinement required removing all text from within or near blocks so that the only text on the slide is the title, which is violated.",
+      "The title is not placed clearly in the top-left corner relative to the overall canvas margin (it appears slightly inset but not strongly anchored as described)."
+    ],
+    "improvements": [
+      "Remove the 'Input' label so the only text on the slide is the title 'Why output dominates'.",
+      "Ensure the title text remains exactly 'Why output dominates' and is clearly positioned in the top-left corner consistent with the style guidelines.",
+      "Keep using icons/shapes for input, compute, and output tokens, but avoid any textual annotations or labels within or near the diagram in future iterations."
+    ],
+    "summary": "Diagram style and structure (single input compute followed by repeated output compute steps) are correct, but the presence of the extra 'Input' label and minor title placement issues violate the strict text constraints, so the slide does not pass."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'MoE'. Diagram: A router sends tokens to three expert blocks; two are active, others dimmed. Label active blocks 'expert'. Only text: 'MoE', 'expert'. Refinements: Remove or simplify the three small white marks on the router so there is no ambiguity about extra textual/semantic elements beyond 'MoE' and 'expert'.; Make the skipping of inactive experts explicit by removing arrows to the dimmed expert blocks or visually breaking/interrupting those connections, so only the active, labeled 'expert' blocks clearly receive tokens..",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'MoE'.",
+    "No extra text appears beyond the specified labels.",
+    "Only a subset of experts are active.",
+    "Inactive experts are visibly skipped."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Deadpan humor aspect is subtle; consider a slightly more overtly dry visual gag (e.g., exaggerated dimness or a tongue\u2011in\u2011cheek alignment) while keeping the corporate style.",
+      "If you want the skipping of inactive experts to be even clearer, you could add a small visual break (e.g., a clear gap) in the dashed connector near the router to emphasize that no tokens flow there, while still avoiding extra text."
+    ],
+    "summary": "All rubric items are satisfied: clean corporate technical style, title is exactly 'MoE', only additional text is 'expert' on the active blocks, a clear subset of experts are active, and inactive experts are visibly skipped via greyed-out blocks and dashed, non-token-carrying connectors."
+  }
+}

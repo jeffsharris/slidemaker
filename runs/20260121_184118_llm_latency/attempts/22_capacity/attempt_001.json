@@ -1,0 +1,19 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'Capacity'. No logos or brand names. A queue feeding into server racks; add a second rack cluster with a plus sign and a shorter queue.",
+  "rubric": [
+    "Additional capacity is shown.",
+    "Queue becomes shorter.",
+    "Title 'Capacity' is visible.",
+    "Playful style."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Make the difference in queue lengths even more pronounced (e.g., add one more person on the left or one fewer on the right) to more clearly emphasize that the queue becomes shorter with added capacity.",
+      "Consider slightly enlarging or bolding the plus sign between the two rack groups so the idea of \u2018additional capacity\u2019 is instantly obvious, even at a quick glance."
+    ],
+    "summary": "All rubric items are met: additional capacity is depicted with a second rack cluster and a plus sign, the queue on the right is shorter than the queue on the left, the title \u2018Capacity\u2019 is clearly visible in the top-left, and the illustration uses a playful, cute vector style with pastel colors and rounded shapes."
+  }
+}

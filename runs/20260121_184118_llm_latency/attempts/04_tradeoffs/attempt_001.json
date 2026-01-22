@@ -1,0 +1,19 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'Tradeoffs'. No logos or brand names. A simple triangle with corners labeled 'capability', 'cost', 'latency'.",
+  "rubric": [
+    "Triangle shows capability, cost, and latency.",
+    "Labels are visible and short.",
+    "Title 'Tradeoffs' is visible.",
+    "Playful, minimal composition."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 9.5,
+    "failures": [],
+    "improvements": [
+      "Slightly increase the contrast or thickness of the triangle outline so it stands out even more against the colorful background.",
+      "Consider reducing or spacing out a few surrounding decorative elements (e.g., stars/dots) to make the triangle feel even more visually dominant and minimal without losing playfulness."
+    ],
+    "summary": "All rubric items are satisfied: the triangle clearly shows the three corners labeled \u2018capability\u2019, \u2018cost\u2019, and \u2018latency\u2019; labels are short and legible; the title \u2018Tradeoffs\u2019 is visible in the top-left; and the overall style is playful, cute, and relatively minimal with a strong central illustration. Only minor refinements to emphasis and clutter could improve clarity further."
+  }
+}

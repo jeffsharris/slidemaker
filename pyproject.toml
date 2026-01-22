@@ -12,6 +12,7 @@ authors = [
 
 dependencies = [
   "openai>=1.40.0",
+  "img2pdf>=0.5.1",
 ]
 
 [project.scripts]

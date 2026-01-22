@@ -1,0 +1,24 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Capacity'. Diagram: A serving engine box with GPUs; a plus sign adds more GPUs and the queue shortens. Label the engine 'server'. Only text: 'Capacity', 'server'. Refinements: Redraw the diagram so that there is one server chassis/engine that clearly gains additional GPUs (e.g., show the same box before and after, or use an overlay/expansion inside a single box) instead of rendering two distinct servers side by side.; Remove one of the 'server' text labels so that only a single 'server' label appears on the serving engine, with no duplicate or extra text..",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Capacity'.",
+    "No extra text appears beyond the specified labels.",
+    "Additional GPUs are added.",
+    "Queue length visibly decreases."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.6,
+    "failures": [
+      "Diagram shows two distinct server chassis side by side instead of a single server that clearly gains GPUs (violates refinement).",
+      "There are two separate 'server' labels, one under each chassis; only one 'server' label should appear (violates refinement and no-extra-text spirit)."
+    ],
+    "improvements": [
+      "Redraw the diagram so that there is one server chassis/engine depicted before and after GPU expansion within a single composite layout (e.g., left side faded/outlined as prior state and right/overlay showing added GPUs) instead of two independent servers.",
+      "Remove the 'server' label from one chassis so that only a single 'server' label is present on the serving engine.",
+      "Keep the overall clean deadpan corporate vector style, title placement, plus sign, and visible queue shortening, as these already satisfy the rubric."
+    ],
+    "summary": "Title and style are correct, GPUs are added, and the queue shortens, but the image still uses two separate servers and includes two 'server' labels, so it does not meet the refined requirements."
+  }
+}

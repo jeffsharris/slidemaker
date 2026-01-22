@@ -1,0 +1,20 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'Wafer'. No logos or brand names. A single huge wafer-scale chip replaces many small chips, with a fast arrow and tiny tokens flowing quickly.",
+  "rubric": [
+    "A single giant wafer-scale chip is shown.",
+    "Speed improvement is implied.",
+    "Title 'Wafer' is visible.",
+    "Playful, minimal style."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "The speed implication is present via the large arrow and flowing tokens, but could be made even clearer with motion lines or a clearer contrast between the slow many-chips side and the fast wafer side.",
+      "The smaller chips on the left could be slightly more visually separated from the central wafer so the contrast of 'many small vs one big' is immediately obvious at a glance.",
+      "Text for the title 'Wafer' could be nudged slightly closer to the top-left corner to adhere more literally to the prompt\u2019s placement request. The current position is close but not perfectly anchored."
+    ],
+    "summary": "All rubric items are met: a single giant wafer-scale chip is central, speed improvement is implied by the fast arrow and flowing tokens, the title 'Wafer' is clearly visible, and the style is playful, cute, and minimal."
+  }
+}

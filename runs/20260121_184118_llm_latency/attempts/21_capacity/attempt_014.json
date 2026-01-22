@@ -1,0 +1,24 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Capacity'. Diagram: ONE server chassis labeled 'server' at center. Two unlabeled request queues feed it: a long queue on the left and a short queue on the right. Place a plus sign BETWEEN the two queues (centered horizontally) to indicate added capacity. No second server. Only text: 'Capacity', 'server'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Capacity'.",
+    "No extra text appears beyond the specified labels.",
+    "Exactly one server chassis is shown and it is labeled 'server'.",
+    "Two UNLABELED request queues of different length feed the same server (one longer, one shorter).",
+    "A plus sign sits between the two queues to indicate added capacity."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.67,
+    "failures": [
+      "There is extra, unlabeled visual content: a horizontal double-headed arrow between the two queues that is not specified in the prompt.",
+      "The two request queues are not both clearly feeding into the server; the right-hand queue is visually separated by the long arrow, so the \"feed the same server\" relationship is ambiguous."
+    ],
+    "improvements": [
+      "Remove the horizontal double-headed arrow between the queues so that only the plus sign sits between them as the central symbol.",
+      "Adjust the arrows or positioning so that both the long left queue and the short right queue clearly and directly point into the single server chassis, with no intervening elements that disrupt the flow."
+    ],
+    "summary": "Most textual and stylistic requirements are met (correct title, only 'server' label, one server, plus sign present, two queues of different lengths), but the added double-headed arrow is an extra, non-specified diagram element and it visually interferes with the intended depiction of both queues feeding the same server."
+  }
+}

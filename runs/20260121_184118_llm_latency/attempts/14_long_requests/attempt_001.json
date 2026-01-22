@@ -1,0 +1,17 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Long requests'. Diagram: Split diagram: left shows wide request strips that do not fit neatly in a batch box; right shows a rising curve labeled 'cost'. Only text: 'Long requests', 'cost'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Long requests'.",
+    "No extra text appears beyond the specified labels.",
+    "Batching difficulty is shown on the left.",
+    "A rising cost curve appears on the right."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [],
+    "summary": "All rubric items satisfied: clean deadpan technical style, correct title text, only specified labels present, clear batching difficulty on the left, and a rising cost curve on the right."
+  }
+}

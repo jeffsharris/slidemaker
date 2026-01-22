@@ -1,0 +1,20 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'Context'. No logos or brand names. A cute car pulling an expanding trailer labeled 'KV', getting longer as context grows; memory stack icon grows.",
+  "rubric": [
+    "Context growth is shown visually.",
+    "KV cache growth or memory pressure is implied.",
+    "Title 'Context' is visible.",
+    "Playful, minimal style."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Context growth is shown well by the elongated multi-car trailer; you could exaggerate the stretching effect (e.g., ghosted shorter trailer behind it) to make the idea of \u2018growing\u2019 even clearer.",
+      "KV cache / memory growth is implied by the stacking disks; to emphasize memory pressure, consider adding a subtle strain cue (e.g., small sweat drop on the car or trailer, or tiny warning icon near the tallest stack).",
+      "Playful minimal style and palette are strong; to push minimalism further, you could slightly reduce the amount of ground detail (fewer flowers/grass tufts) to keep more focus on the trailer and memory stack."
+    ],
+    "summary": "All rubric items are met: context growth is visualized by a lengthening KV trailer, KV/memory growth is implied by increasing disk stacks with arrows, the title 'Context' is clearly visible in the top-left, and the illustration is playful, cute, and minimal in style using a pastel palette. Minor tweaks could make the growth and memory-pressure concepts even more explicit."
+  }
+}

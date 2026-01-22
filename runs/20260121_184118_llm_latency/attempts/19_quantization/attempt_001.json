@@ -1,0 +1,22 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Quantization'. Diagram: A stack of numeric blocks labeled '16-bit', '8-bit', '4-bit' with a speed arrow. Only text: 'Quantization', '16-bit', '8-bit', '4-bit'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Quantization'.",
+    "No extra text appears beyond the specified labels.",
+    "Precision levels 16-bit, 8-bit, 4-bit are shown.",
+    "A speed increase is implied."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.9,
+    "failures": [
+      "The diagram contains additional text-like glyphs (the small grid of rectangular blocks inside the 16-bit block), which can be interpreted as extra markings beyond the strictly allowed labels 'Quantization', '16-bit', '8-bit', '4-bit'."
+    ],
+    "improvements": [
+      "Remove the small grid/rectangular glyphs inside the 16-bit block so that the only visible text/markings are the labels 'Quantization', '16-bit', '8-bit', '4-bit'.",
+      "Keep the existing clean vector, muted color palette, stacked blocks, and speed arrow, which already satisfy the style, title, precision levels, and implied speed increase requirements."
+    ],
+    "summary": "Nearly perfect slide: correct title, clean corporate-technical style, proper 16/8/4-bit stack, and a rightward speed arrow. The only issue is the additional glyph grid inside the top block, which violates the strict 'no extra text/marks' constraint."
+  }
+}

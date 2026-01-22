@@ -1,0 +1,418 @@
+{
+  "spec": {
+    "topic": "LLM Latency",
+    "aspect_ratio": "16:9",
+    "image_size": "1536x1024",
+    "audience": "Mixed technical depth, high-level, tech industry",
+    "tone": "Deadpan corporate, technically precise, lightly funny",
+    "visual_style": "Deadpan corporate diagramming with dry humor, clean technical vector diagrams, crisp lines, subtle shadows, big central graphic, consistent title placement top-left",
+    "color_palette": "Slate, graphite, muted cyan, safety orange accents on off-white",
+    "constraints": [
+      "No logos or watermarks",
+      "No brand names",
+      "Only include the exact text specified for the slide",
+      "No extra labels or numbers"
+    ],
+    "allow_text": true
+  },
+  "slides": [
+    {
+      "id": "00_cover",
+      "title": "What matters",
+      "intent": "Cover slide stating what really matters in LLM latency.",
+      "notes": "Same waiting chat motif; new title.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'What matters'. Diagram: a large chat bubble with three loading dots, a small queue of office workers waiting with coffee cups, and a tiny hourglass. Only text: 'What matters'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'What matters'.",
+        "No extra text appears beyond the specified labels.",
+        "A chat bubble with loading dots and a waiting queue are visible."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "01_what_makes_slow",
+      "title": "What makes it slow?",
+      "intent": "Section opener for what makes LLMs slow.",
+      "notes": "Section opener.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'What makes it slow?'. Diagram: A signpost pointing to a schematic request conveyor with token pills, and a small warning triangle. Only text: 'What makes it slow?'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'What makes it slow?'.",
+        "No extra text appears beyond the specified labels.",
+        "The slide clearly reads as a section opener."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "02_request_timing",
+      "title": "TTFT vs TBT",
+      "intent": "Show a single request as tokens; prompt tokens labeled TTFT, output tokens labeled TBT. Output time is TBT times number of output tokens.",
+      "notes": "Token strip with labels.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'TTFT vs TBT'. Diagram: A single horizontal request strip of token pills. Left segment (prompt tokens) is bracketed and labeled 'TTFT'. Right segment (output tokens) has repeated spacing and is labeled 'TBT' with a small 'x N' under the output segment. Only text: 'TTFT', 'TBT', 'x N'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'TTFT vs TBT'.",
+        "No extra text appears beyond the specified labels.",
+        "A full request token strip is visible with prompt and output segments.",
+        "The prompt segment is labeled 'TTFT'.",
+        "The output segment is labeled 'TBT' and marked with 'x N'."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "03_end_to_end",
+      "title": "End-to-end latency",
+      "intent": "End-to-end latency includes network, queue, prefill, decode, and service time.",
+      "notes": "Pipeline with labeled segments.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'End-to-end latency'. Diagram: A single horizontal pipeline bar split into labeled segments: 'network', 'queue', 'prefill', 'decode', 'service'. Only text: 'End-to-end latency', 'network', 'queue', 'prefill', 'decode', 'service'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'End-to-end latency'.",
+        "No extra text appears beyond the specified labels.",
+        "Pipeline includes network, queue, prefill, decode, and service segments.",
+        "Labels are short and legible."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "04_output_dominates",
+      "title": "Why output dominates",
+      "intent": "Technical explanation: decode is sequential and repeats full forward pass per token.",
+      "notes": "Sequential compute blocks.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Why output dominates'. Diagram: A short input block goes through one compute block once. Then a long chain of output tokens each passes through repeated identical compute blocks, showing sequential steps. Only text: 'Why output dominates'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'Why output dominates'.",
+        "No extra text appears beyond the specified labels.",
+        "Output tokens are shown going through repeated compute blocks sequentially.",
+        "Input appears processed once while output repeats many steps."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "05_tradeoffs",
+      "title": "Tradeoffs",
+      "intent": "Tradeoff between capability, cost, latency.",
+      "notes": "Triangle diagram.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Tradeoffs'. Diagram: A simple triangle with corners labeled 'capability', 'cost', 'latency'. Only text: 'Tradeoffs', 'capability', 'cost', 'latency'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'Tradeoffs'.",
+        "No extra text appears beyond the specified labels.",
+        "Triangle shows capability, cost, and latency corners."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "06_latency_throughput",
+      "title": "Trade-off Between Latency and Throughput",
+      "intent": "Scatter plot with many points; trend upward.",
+      "notes": "Dense scatter plot.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Trade-off Between Latency and Throughput'. Diagram: A scatter plot with many dots (50+). X-axis labeled 'tok/min/GPU', Y-axis labeled 'ms/token'. Trend is upward but noisy. Only text: 'Trade-off Between Latency and Throughput', 'tok/min/GPU', 'ms/token'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'Trade-off Between Latency and Throughput'.",
+        "No extra text appears beyond the specified labels.",
+        "Scatter plot has many points and a noisy upward trend.",
+        "Axes are labeled 'tok/min/GPU' and 'ms/token'."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "07_congestion",
+      "title": "Congestion",
+      "intent": "Queueing delays grow with more requests.",
+      "notes": "Queue diagram.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Congestion'. Diagram: Multiple request strips entering a single service lane, forming a visible queue. A clock icon shows delay. Only text: 'Congestion'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'Congestion'.",
+        "No extra text appears beyond the specified labels.",
+        "A queue of requests is visible entering a bottleneck.",
+        "Delay is indicated (clock or hourglass)."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "08_batching",
+      "title": "Batching",
+      "intent": "Show stacking multiple requests into a single forward pass.",
+      "notes": "Stacked batch into GPU.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Batching'. Diagram: Several request strips stacked into a single rectangular batch box feeding into a GPU block labeled 'GPU'. Show a single forward pass arrow. Only text: 'Batching', 'GPU'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'Batching'.",
+        "No extra text appears beyond the specified labels.",
+        "Multiple requests are stacked into one batch.",
+        "The batch feeds a GPU block in one forward pass."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "09_routing",
+      "title": "Routing",
+      "intent": "Global routing across data centers.",
+      "notes": "World map with nodes.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Routing'. Diagram: A simplified world map with multiple data center nodes connected by network lines. A request arrow chooses between two distant clusters. Only text: 'Routing'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'Routing'.",
+        "No extra text appears beyond the specified labels.",
+        "Multiple data center nodes and network lines are visible.",
+        "Routing choice is implied (arrows)."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "10_model_size",
+      "title": "Model size",
+      "intent": "Larger models are slower.",
+      "notes": "Model blocks with latency arrow.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Model size'. Diagram: Three model blocks labeled 'small', 'medium', 'large' with a latency arrow increasing from small to large. Use a simple 'latency' arrow label. Only text: 'Model size', 'small', 'medium', 'large', 'latency'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'Model size'.",
+        "No extra text appears beyond the specified labels.",
+        "Model sizes are clearly labeled.",
+        "Latency increases with size."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "11_input_vs_output",
+      "title": "Input vs output",
+      "intent": "Input tokens are cheaper than output tokens.",
+      "notes": "Request strip with cost weights.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Input vs output'. Diagram: A single request strip: input tokens have small cost squares, output tokens have larger cost squares. Labels 'input' and 'output'. Only text: 'Input vs output', 'input', 'output'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'Input vs output'.",
+        "No extra text appears beyond the specified labels.",
+        "Input and output segments are labeled.",
+        "Output segment shows higher cost visually."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "12_context_kv",
+      "title": "Context + KV",
+      "intent": "Longer context grows KV cache and memory pressure.",
+      "notes": "KV growth with context length.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Context + KV'. Diagram: A request strip with increasing context length feeding into a KV cache block that grows taller. Label the cache 'KV'. Only text: 'Context + KV', 'KV'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'Context + KV'.",
+        "No extra text appears beyond the specified labels.",
+        "KV cache growth is visually tied to longer context.",
+        "A KV block is labeled."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "13_cached_prefix",
+      "title": "Cached prefix",
+      "intent": "Cached prompt segments are cheap; uncached are not.",
+      "notes": "Prompt bar with cached section.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Cached prefix'. Diagram: A prompt bar split into a left segment labeled 'cached' and a right segment labeled 'new'. Output tokens shown after. Only text: 'Cached prefix', 'cached', 'new'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'Cached prefix'.",
+        "No extra text appears beyond the specified labels.",
+        "Cached and new prompt segments are clearly labeled.",
+        "Output tokens are shown after the prompt."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "14_long_requests",
+      "title": "Long requests",
+      "intent": "Long requests cost more due to batching difficulty and quadratic growth.",
+      "notes": "Wide requests + curve.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Long requests'. Diagram: Split diagram: left shows wide request strips that do not fit neatly in a batch box; right shows a rising curve labeled 'cost'. Only text: 'Long requests', 'cost'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'Long requests'.",
+        "No extra text appears beyond the specified labels.",
+        "Batching difficulty is shown on the left.",
+        "A rising cost curve appears on the right."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "15_speedups",
+      "title": "Speedups",
+      "intent": "Section opener for speedups.",
+      "notes": "Speedometer.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Speedups'. Diagram: A clean speedometer with a subtle wink (humor via tiny sticky note icon, no text). Only text: 'Speedups'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'Speedups'.",
+        "No extra text appears beyond the specified labels.",
+        "Clearly a section opener for speedups."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "16_smaller_models",
+      "title": "Smaller models",
+      "intent": "Use smaller models to go faster.",
+      "notes": "Shrink model blocks.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Smaller models'. Diagram: Model blocks shrink with a faster arrow labeled 'faster'. Only text: 'Smaller models', 'faster'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'Smaller models'.",
+        "No extra text appears beyond the specified labels.",
+        "Smaller model size correlates with faster speed."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "17_moe",
+      "title": "MoE",
+      "intent": "Experts and skipping inactive experts.",
+      "notes": "Router to experts.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'MoE'. Diagram: A router sends tokens to three expert blocks; two are active, others dimmed. Label active blocks 'expert'. Only text: 'MoE', 'expert'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'MoE'.",
+        "No extra text appears beyond the specified labels.",
+        "Only a subset of experts are active.",
+        "Inactive experts are visibly skipped."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "18_proxy",
+      "title": "Proxy model",
+      "intent": "Predict a swatch of output tokens at once, then verify.",
+      "notes": "Draft and verify swatch.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Proxy model'. Diagram: A proxy model outputs a block of 5 tokens at once (a swatch), then a verify gate checks them. Label 'draft' and 'verify'. Only text: 'Proxy model', 'draft', 'verify'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'Proxy model'.",
+        "No extra text appears beyond the specified labels.",
+        "A block of multiple output tokens is generated at once.",
+        "There is a verify gate after the draft."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "19_quantization",
+      "title": "Quantization",
+      "intent": "Lower precision tokens/weights speed inference.",
+      "notes": "Precision ladder.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Quantization'. Diagram: A stack of numeric blocks labeled '16-bit', '8-bit', '4-bit' with a speed arrow. Only text: 'Quantization', '16-bit', '8-bit', '4-bit'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'Quantization'.",
+        "No extra text appears beyond the specified labels.",
+        "Precision levels 16-bit, 8-bit, 4-bit are shown.",
+        "A speed increase is implied."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "20_kv_cache",
+      "title": "KV cache",
+      "intent": "Smarter KV cache policies improve speed.",
+      "notes": "Cache reuse vs eviction.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'KV cache'. Diagram: A KV cache block with reuse arrows and a small dimmed eviction bin labeled 'evict'. Only text: 'KV cache', 'evict'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'KV cache'.",
+        "No extra text appears beyond the specified labels.",
+        "Reuse arrows appear in the KV cache.",
+        "Eviction is shown but de-emphasized."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "21_capacity",
+      "title": "Capacity",
+      "intent": "Adding capacity reduces queues.",
+      "notes": "More GPUs.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Capacity'. Diagram: ONE server chassis labeled 'server' at center with a clear plus sign attached to the chassis. A short queue of 3 request strips feeds the server in the foreground. Behind it, a faint ghosted longer queue of 8 strips shows the before state. No labels near queues. No second server. Only text: 'Capacity', 'server'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'Capacity'.",
+        "No extra text appears beyond the specified labels.",
+        "Exactly one server chassis is shown and it is labeled 'server'.",
+        "A plus sign is attached to the server chassis.",
+        "A short foreground queue and a faint longer background queue are both visible."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "22_wafer",
+      "title": "Wafer-scale",
+      "intent": "Single giant wafer-scale chip for faster tokens.",
+      "notes": "Huge wafer.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Wafer-scale'. Diagram: A single large wafer-scale chip replaces many small chips; tokens flow quickly across it. Subtle humor via an oversized chip. Only text: 'Wafer-scale'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'Wafer-scale'.",
+        "No extra text appears beyond the specified labels.",
+        "A single giant wafer-scale chip is shown.",
+        "Faster token flow is implied."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "23_what_really_matters",
+      "title": "What matters",
+      "intent": "Over-the-top deadpan slide: what really matters is doing the work, not just latency.",
+      "notes": "Same waiting motif; add a big priority stamp for 'what matters'.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'What matters'. Diagram: the same waiting chat bubble and small queue motif, but with a large priority badge or ribbon pointing to the queue. Only text: 'What matters'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'What matters'.",
+        "No extra text appears beyond the specified labels.",
+        "The waiting chat bubble and queue motif are present.",
+        "An obvious priority badge or ribbon emphasizes the point."
+      ],
+      "image_size": "",
+      "status": "approved"
+    },
+    {
+      "id": "24_do_your_own_work",
+      "title": "Do the work",
+      "intent": "Over-the-top joke slide: the real lesson is doing your own work (build your own slides).",
+      "notes": "Giant stamp slams a slide icon; deadpan humor.",
+      "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Do the work'. Diagram: an oversized rubber stamp slams onto a simple slide icon, with a dramatic burst mark. The stamp face reads 'DO YOUR OWN WORK'. Only text: 'Do the work', 'DO YOUR OWN WORK'.",
+      "rubric": [
+        "The slide uses a clean, technical diagram style with deadpan humor.",
+        "Title text reads exactly 'Do the work'.",
+        "The stamp face reads exactly 'DO YOUR OWN WORK'.",
+        "No extra text appears beyond the specified labels.",
+        "A large stamp and a slide icon are clearly visible.",
+        "The composition feels intentionally over-the-top."
+      ],
+      "image_size": "",
+      "status": "approved"
+    }
+  ]
+}

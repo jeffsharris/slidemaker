@@ -1,0 +1,26 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Capacity'. Diagram: ONE server chassis labeled 'server' with a visible GPU bay. Show a plus sign adding extra GPUs inside the SAME chassis, not a second server. A queue of request strips feeds the chassis; the queue is visibly shorter after the added GPUs within the same diagram. Only text: 'Capacity', 'server'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Capacity'.",
+    "No extra text appears beyond the specified labels.",
+    "Exactly one server chassis is shown and it is labeled 'server'.",
+    "Additional GPUs are shown added inside the same chassis.",
+    "The queue becomes shorter after the GPUs are added."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.5,
+    "failures": [
+      "Diagram shows two separate chassis units (a server plus a separate GPU expansion box) instead of additional GPUs clearly added inside the same single chassis.",
+      "The GPU bay is not clearly visible as an internal addition within the labeled server chassis; instead, it appears as a distinct second device.",
+      "The queue of request strips is positioned before the first chassis and after the second chassis, implying processing by a chain of devices rather than a single chassis with upgraded internal GPUs."
+    ],
+    "improvements": [
+      "Redraw the diagram so there is only one physical server chassis pictured; show its interior GPU bay clearly, then depict additional GPUs being added inside that same chassis (e.g., more GPU cards/racks within the same outline).",
+      "Remove the separate second box; instead, use a zoom-in or before/after internal view of the same chassis to convey additional GPUs being installed.",
+      "Ensure the request queue enters and exits the same single chassis, with a visibly longer queue before and a shorter queue after the GPU upgrade, all within one integrated diagram flow."
+    ],
+    "summary": "Styling, title text, and label constraints are correct, but the illustration incorrectly uses two chassis rather than a single server with added internal GPUs, and the queue change is tied to this two-device layout."
+  }
+}

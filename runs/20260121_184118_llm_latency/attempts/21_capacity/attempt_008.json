@@ -1,0 +1,24 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Capacity'. Diagram: ONE server chassis labeled 'server' at center. Two request queues feed it: a long queue on the left and a short queue on the right. A plus sign between the queues indicates added capacity. No second server. Only text: 'Capacity', 'server'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Capacity'.",
+    "No extra text appears beyond the specified labels.",
+    "Exactly one server chassis is shown and it is labeled 'server'.",
+    "Two request queues of different length feed the same server (one longer, one shorter).",
+    "A plus sign indicates added capacity."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.67,
+    "failures": [
+      "Two request queues of different length feed the same server (one longer, one shorter) is not satisfied: the diagram shows only one input queue on the left and one output queue on the right, instead of two input queues feeding the server.",
+      "A plus sign indicating added capacity is present, but without the second input queue it does not clearly sit between two request queues as specified."
+    ],
+    "improvements": [
+      "Add a second, shorter input request queue on the right side of the plus sign, both pointing toward the same central server, so there are clearly two input queues of different lengths feeding the server.",
+      "Ensure the plus sign is visually positioned between the long and short input queues to clearly indicate added capacity while keeping the rest of the layout and style consistent."
+    ],
+    "summary": "Styling, title text, labels, and single server are correct, but the required second input request queue feeding the server is missing, and the plus sign therefore does not sit between two request queues as specified."
+  }
+}

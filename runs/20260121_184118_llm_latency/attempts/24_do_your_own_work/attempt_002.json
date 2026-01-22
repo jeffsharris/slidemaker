@@ -1,0 +1,24 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Do the work'. Diagram: an oversized rubber stamp slams onto a simple slide icon, with a dramatic burst mark. The stamp face reads 'DO YOUR OWN WORK'. Only text: 'Do the work', 'DO YOUR OWN WORK'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Do the work'.",
+    "The stamp face reads exactly 'DO YOUR OWN WORK'.",
+    "No extra text appears beyond the specified labels.",
+    "A large stamp and a slide icon are clearly visible.",
+    "The composition feels intentionally over-the-top."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 7.0,
+    "failures": [
+      "The diagram uses a playground slide icon instead of a simple presentation slide icon, which does not match the requested \"simple slide icon\" metaphor.",
+      "While the overall style is clean and vector-based, it leans more toward playful illustration than a strictly \"deadpan corporate technical diagram\" style."
+    ],
+    "improvements": [
+      "Replace the playground slide with a minimalist presentation slide icon (e.g., a rectangle with a small title bar or content area) so the imagery aligns with the specified \"simple slide icon.\"",
+      "Refine the visual style toward a more corporate technical-diagram look: simplify shapes, reduce cartoon-like exaggeration in the stamp, and use subtler motion/burst lines while keeping the over-the-top composition conceptually intact."
+    ],
+    "summary": "Text, placement, colors, and over-the-top composition are correct, but the icon is a playground slide rather than a presentation slide, and the style is more playful illustration than deadpan corporate technical diagram."
+  }
+}

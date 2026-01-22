@@ -4,11 +4,13 @@ import argparse
 import datetime as dt
 from pathlib import Path
 
+from .exporter import export_pdf
 from .pipeline import RunConfig, generate_all
 from .prompting import build_prompt, build_rubric, slide_id
 from .report import build_report
 from .store import (
     ensure_run_dirs,
+    latest_run_id,
     load_slides,
     load_spec,
     run_dir,
@@ -47,6 +49,13 @@ def main() -> None:
 
     report_parser = subparsers.add_parser("report", help="Generate HTML report")
     report_parser.add_argument("--run", required=True)
+
+    export_parser = subparsers.add_parser(
+        "export-pdf",
+        help="Export final images as a full-bleed PDF",
+    )
+    export_parser.add_argument("--run", help="Run id (defaults to latest)")
+    export_parser.add_argument("--output", help="Optional output PDF path")
 
     args = parser.parse_args()
     base_dir = Path.cwd()
@@ -133,6 +142,14 @@ def main() -> None:
         slides = load_slides(run_root).get("slides", [])
         report_path = build_report(run_root, slides)
         print(f"Report written to {report_path}")
+        return
+
+    if args.command == "export-pdf":
+        run_id = args.run or latest_run_id(base_dir)
+        run_root = run_dir(base_dir, run_id)
+        output_path = Path(args.output) if args.output else None
+        pdf_path = export_pdf(run_root, output_path)
+        print(f"PDF written to {pdf_path}")
         return
 
 

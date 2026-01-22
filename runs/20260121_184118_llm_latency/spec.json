@@ -1,0 +1,16 @@
+{
+  "topic": "LLM Latency",
+  "aspect_ratio": "16:9",
+  "image_size": "1536x1024",
+  "audience": "Mixed technical depth, high-level, tech industry",
+  "tone": "Deadpan corporate, technically precise, lightly funny",
+  "visual_style": "Deadpan corporate diagramming with dry humor, clean technical vector diagrams, crisp lines, subtle shadows, big central graphic, consistent title placement top-left",
+  "color_palette": "Slate, graphite, muted cyan, safety orange accents on off-white",
+  "constraints": [
+    "No logos or watermarks",
+    "No brand names",
+    "Only include the exact text specified for the slide",
+    "No extra labels or numbers"
+  ],
+  "allow_text": true
+}

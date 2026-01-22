@@ -1,0 +1,22 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Capacity'. Diagram: ONE server chassis labeled 'server' at center. Two unlabeled request queues feed it: a long queue on the left and a short queue on the right. Place a plus sign BETWEEN the two queues (centered horizontally) to indicate added capacity. No second server. Only text: 'Capacity', 'server'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Capacity'.",
+    "No extra text appears beyond the specified labels.",
+    "Exactly one server chassis is shown and it is labeled 'server'.",
+    "Two UNLABELED request queues of different length feed the same server (one longer, one shorter).",
+    "A plus sign sits between the two queues to indicate added capacity."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.83,
+    "failures": [
+      "The plus sign is centered in the horizontal layout but not clearly placed BETWEEN two separate queues that both feed the server; instead it visually separates a long queue into two parts before a single arrow to the server, so the right-hand short queue is not clearly an independent queue feeding the server."
+    ],
+    "improvements": [
+      "Redraw the diagram so there are clearly two distinct request queues, each visually separate and both pointing toward the same server (e.g., two arrows converging on the server), with the plus sign located in the space between those two queues rather than mid-way along a single continuous flow."
+    ],
+    "summary": "Most rubric items are met: the style is clean and technical with subtle shadows; the title reads exactly 'Capacity'; no extra text beyond 'Capacity' and 'server' appears; there is exactly one chassis labeled 'server'; and the two queues are of different lengths. However, the plus sign\u2019s placement and the arrow layout make the right-hand queue look like a continuation of the left queue instead of a second independent queue feeding the same server, so it does not fully satisfy the requirement of two unlabeled request queues feeding the server with a plus sign between them."
+  }
+}

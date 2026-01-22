@@ -1,0 +1,19 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'Size'. No logos or brand names. Three model blocks increasing in size with a speed gauge decreasing. Labels: 'small', 'medium', 'large'.",
+  "rubric": [
+    "Model sizes are clearly shown.",
+    "Larger size implies slower speed.",
+    "Title 'Size' is visible.",
+    "Playful, minimal style."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 10.0,
+    "failures": [],
+    "improvements": [
+      "To emphasize the speed relationship even more, you could add subtle numeric or text cues (e.g., 'fast', 'medium', 'slow') near the gauge and align it more clearly with each block size.",
+      "Consider slightly thickening the labels 'small', 'medium', 'large' or increasing contrast to improve readability from a distance."
+    ],
+    "summary": "All rubric items are met: the three model blocks clearly increase in size and are labeled small/medium/large; the speed gauge points to higher speed near the smallest block area, visually implying larger size is slower; the title 'Size' is clearly visible in the top-left; and the overall design is playful, minimal, and matches the requested pastel, rounded vector style."
+  }
+}

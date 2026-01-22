@@ -1,0 +1,20 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'Long requests'. No logos or brand names. Split scene: left shows wide cars/trucks struggling to fit, right shows a rising curve labeled 'cost'.",
+  "rubric": [
+    "Batching difficulty is shown with wide cars.",
+    "A rising cost curve is visible.",
+    "Title 'Long requests' is visible.",
+    "Playful, minimal style."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Cars and trucks could be drawn even wider or more exaggerated to emphasize batching difficulty more clearly.",
+      "Consider labeling the left scene with a small caption like 'hard to batch' to explicitly tie cars to the concept, while still keeping text minimal.",
+      "You might soften the gridlines on the cost chart slightly to lean even more into the minimal, playful aesthetic."
+    ],
+    "summary": "All rubric items are satisfied: the left side shows wide vehicles squeezed into a narrow lane (batching difficulty), the right side shows a clear rising cost curve labeled 'cost', the title 'Long requests' is visible in the top-left, and the illustration uses a playful, minimal vector style with pastel colors and soft shapes."
+  }
+}

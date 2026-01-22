@@ -1,0 +1,20 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'What matters'. Diagram: the same waiting chat bubble and small queue motif, but with a large priority badge or ribbon pointing to the queue. Only text: 'What matters'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'What matters'.",
+    "No extra text appears beyond the specified labels.",
+    "The waiting chat bubble and queue motif are present.",
+    "An obvious priority badge or ribbon emphasizes the point."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "If you want the deadpan humor to read a bit more clearly, you could exaggerate the size or prominence of the priority badge/ribbon relative to the queue slightly more, while keeping the same style.",
+      "Consider aligning the queue arrow more directly into the badge or making the pointer shape more explicit so the emphasis on priority is unmistakable at a glance."
+    ],
+    "summary": "All rubric items are met: clean deadpan corporate vector style, correct title text, no extra text, a clear waiting chat bubble and queue motif, and an obvious priority ribbon highlighting the queue. Slide passes."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'Metrics'. No logos or brand names. Three friendly icons in a row: stopwatch labeled 'TTFT', metronome labeled 'TBT', and a tiny curve labeled 'p95'. Keep labels short and readable.",
+  "rubric": [
+    "TTFT and TBT labels are visible and legible.",
+    "A p95 indicator appears (small curve or badge).",
+    "Title 'Metrics' is visible.",
+    "Playful, minimal style with simple icons."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "All rubric items are met; for even stronger clarity at a distance, slightly increase the font weight/size of the TTFT, TBT, and p95 labels.",
+      "Consider nudging the title a bit further into the top-left corner to emphasize the slide hierarchy, while keeping the layout minimal."
+    ],
+    "summary": "Pass. TTFT and TBT labels are clearly visible and legible under their respective icons, a p95 indicator appears as a small curve/graph with the label \u2018p95\u2019, the title \u2018Metrics\u2019 is visible at the top-left, and the overall style is playful, minimal, and uses simple, cute vector icons matching the prompt."
+  }
+}

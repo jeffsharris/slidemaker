@@ -1,0 +1,26 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Capacity'. Diagram: ONE server chassis labeled 'server' with a visible GPU bay. Show a plus sign adding extra GPUs inside the SAME chassis, not a second server. A queue of request strips feeds the chassis; the queue is visibly shorter after the added GPUs within the same diagram. Only text: 'Capacity', 'server'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Capacity'.",
+    "No extra text appears beyond the specified labels.",
+    "Exactly one server chassis is shown and it is labeled 'server'.",
+    "Additional GPUs are shown added inside the same chassis.",
+    "The queue becomes shorter after the GPUs are added."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.6,
+    "failures": [
+      "Exactly one server chassis is shown and it is labeled 'server'.",
+      "Additional GPUs are shown added inside the same chassis.",
+      "The queue becomes shorter after the GPUs are added."
+    ],
+    "improvements": [
+      "Show only a single server chassis in the diagram rather than two separate chassis; illustrate the before/after state within the same physical server outline so there is clearly only one server labeled 'server'.",
+      "Depict GPUs visibly added to the GPU bay inside that same single chassis (e.g., more GPU cards appearing in the same bay rather than a new server on the right).",
+      "Make the request queue clearly shorter after the GPUs are added; for example, show a taller stack of request strips feeding the initial configuration and a noticeably smaller stack feeding the upgraded configuration, all within one continuous diagram so the reduction is unambiguous."
+    ],
+    "summary": "The style, title, and text constraints are met, but the slide shows two separate server chassis rather than a single chassis with added GPUs, and it does not clearly depict a shorter queue after GPU expansion within the same server."
+  }
+}

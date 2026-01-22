@@ -38,6 +38,9 @@ slidemaker generate --run <run_id> --concurrency 4 --max-attempts 8
 
 # 7) Build a simple HTML gallery
 slidemaker report --run <run_id>
+
+# 8) Export a full-bleed PDF (omit --run to use latest)
+slidemaker export-pdf --run <run_id>
 ```
 
 ## How it works
@@ -48,6 +51,7 @@ slidemaker report --run <run_id>
 - **Generation**: `generate` calls GPT-image-1.5 to produce images and GPT-5.1 to grade them against the rubric.
 - **Traceability**: All attempts are stored under `attempts/`, with `index.json` tracking prompts, failures, and final selections.
 - **Output**: Final images are copied to `final/` and a `report.html` gallery is generated for viewing.
+- **PDF**: `export-pdf` writes a full-bleed PDF to `runs/<run_id>/exports/`.
 
 ## Run directory structure
 
@@ -65,6 +69,8 @@ runs/
         attempt_001.json
     final/
       01_topic.png
+    exports/
+      slides_YYYYMMDD_HHMMSS.pdf
     report.html
 ```
 

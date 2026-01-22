@@ -1,0 +1,19 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'Budget'. No logos or brand names. A single horizontal pipeline bar split into labeled segments: 'network', 'queue', 'prefill', 'decode', 'service'. Use short labels.",
+  "rubric": [
+    "Pipeline includes network, queue, prefill, decode, and service segments.",
+    "Labels are short and legible.",
+    "Title 'Budget' is visible.",
+    "Playful, clean infographic style."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Ensure the title remains clearly in the top-left on all aspect ratios; in tighter crops it could drift toward center-left.",
+      "Consider slightly increasing the font size or weight of the segment labels for even clearer legibility when projected or viewed at a distance."
+    ],
+    "summary": "All rubric items are satisfied: the pipeline includes network, queue, prefill, decode, and service segments in a single horizontal bar; labels are short and legible; the title 'Budget' is visible near the top-left; and the overall style is playful, clean, and infographic-like."
+  }
+}

@@ -1,0 +1,1061 @@
+{
+  "slides": {
+    "00_cover": {
+      "title": "LLM Latency",
+      "final_image": "final/00_cover.png",
+      "attempts": [
+        {
+          "file": "attempts/00_cover/attempt_001.png",
+          "metadata": "attempts/00_cover/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are met: the slide clearly reads as a cover/title slide with minimal text, the giant chat bubble with dots and hourglass conveys waiting, the title 'LLM Latency' is visible and legible in the top-left, and the overall style is playful and cute with a pastel palette."
+        },
+        {
+          "file": "attempts/00_cover/attempt_001.png",
+          "metadata": "attempts/00_cover/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "'  2023  fi  ..."
+        },
+        {
+          "file": "attempts/00_cover/attempt_002.png",
+          "metadata": "attempts/00_cover/attempt_002.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric conditions are fully satisfied; the slide passes."
+        }
+      ]
+    },
+    "01_what_makes_slow": {
+      "title": "What slows",
+      "final_image": "final/01_what_makes_slow.png",
+      "attempts": [
+        {
+          "file": "attempts/01_what_makes_slow/attempt_001.png",
+          "metadata": "attempts/01_what_makes_slow/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are met: the slide clearly works as a section opener, the title 'What slows' is visible in the top-left, the composition is playful and minimal with a large central illustration, and it uses a pastel palette with rounded, soft shapes. Only minor tweaks to emphasis and visual hierarchy could further strengthen it."
+        },
+        {
+          "file": "attempts/01_what_makes_slow/attempt_001.png",
+          "metadata": "attempts/01_what_makes_slow/attempt_001.json",
+          "pass": false,
+          "score": 0.6,
+          "failures": [
+            "Extra text beyond the specified labels appears: 'REQUESTS' and 'SLOW PROCESS' on the signpost, and an exclamation-mark icon on the warning triangle instead of being text-free.",
+            "The warning triangle is not small relative to the rest of the diagram; it is fairly prominent under the machine.",
+            "Prompt requested 'Only text: \"What makes it slow?\"', but additional words are present on the slide."
+          ],
+          "summary": "The visual style and section-opener feel are strong, but the slide fails the strict text constraint by including extra labels and symbols beyond the required title, and the warning triangle is not particularly small."
+        },
+        {
+          "file": "attempts/01_what_makes_slow/attempt_002.png",
+          "metadata": "attempts/01_what_makes_slow/attempt_002.json",
+          "pass": false,
+          "score": 0.75,
+          "failures": [
+            "The warning triangle contains an exclamation mark, which violates the requirement that the signpost and any icons be purely graphical with no letters or symbols."
+          ],
+          "summary": "The slide otherwise meets the style, title text, no-extra-text, and section-opener requirements, but it fails the strict icon specification because the warning triangle includes an exclamation mark symbol."
+        },
+        {
+          "file": "attempts/01_what_makes_slow/attempt_003.png",
+          "metadata": "attempts/01_what_makes_slow/attempt_003.json",
+          "pass": false,
+          "score": 0.5,
+          "failures": [
+            "Extra text appears on the slide beyond the specified labels: the signpost contains the words 'Request' and 'Processing', which are not allowed by the prompt specifying only the text 'What makes it slow?'.",
+            "While the overall illustration is clean and technical, the presence of labeled signpost text slightly breaks the strict 'only specified text' requirement, weakening the deadpan corporate-technical minimalism requested."
+          ],
+          "summary": "The visual style and section-opener feel work, and the title is correct, but the slide fails due to extra text ('Request', 'Processing') that violates the requirement that only 'What makes it slow?' appear as text."
+        },
+        {
+          "file": "attempts/01_what_makes_slow/attempt_004.png",
+          "metadata": "attempts/01_what_makes_slow/attempt_004.json",
+          "pass": true,
+          "score": 0.98,
+          "failures": [],
+          "summary": "All rubric items are satisfied: the slide uses a clean, deadpan technical diagram style; the only text is the correctly placed title 'What makes it slow?'; the diagram elements are purely graphical with no labels; and the composition clearly reads as a section opener."
+        }
+      ]
+    },
+    "02_metrics": {
+      "title": "Metrics",
+      "final_image": "final/02_metrics.png",
+      "attempts": [
+        {
+          "file": "attempts/02_metrics/attempt_001.png",
+          "metadata": "attempts/02_metrics/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "Pass. TTFT and TBT labels are clearly visible and legible under their respective icons, a p95 indicator appears as a small curve/graph with the label \u2018p95\u2019, the title \u2018Metrics\u2019 is visible at the top-left, and the overall style is playful, minimal, and uses simple, cute vector icons matching the prompt."
+        }
+      ]
+    },
+    "03_latency_budget": {
+      "title": "Budget",
+      "final_image": "final/03_latency_budget.png",
+      "attempts": [
+        {
+          "file": "attempts/03_latency_budget/attempt_001.png",
+          "metadata": "attempts/03_latency_budget/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: the pipeline includes network, queue, prefill, decode, and service segments in a single horizontal bar; labels are short and legible; the title 'Budget' is visible near the top-left; and the overall style is playful, clean, and infographic-like."
+        }
+      ]
+    },
+    "04_tradeoffs": {
+      "title": "Tradeoffs",
+      "final_image": "final/04_tradeoffs.png",
+      "attempts": [
+        {
+          "file": "attempts/04_tradeoffs/attempt_001.png",
+          "metadata": "attempts/04_tradeoffs/attempt_001.json",
+          "pass": true,
+          "score": 9.5,
+          "failures": [],
+          "summary": "All rubric items are satisfied: the triangle clearly shows the three corners labeled \u2018capability\u2019, \u2018cost\u2019, and \u2018latency\u2019; labels are short and legible; the title \u2018Tradeoffs\u2019 is visible in the top-left; and the overall style is playful, cute, and relatively minimal with a strong central illustration. Only minor refinements to emphasis and clutter could improve clarity further."
+        }
+      ]
+    },
+    "05_phases": {
+      "title": "Phases",
+      "final_image": "final/05_phases.png",
+      "attempts": [
+        {
+          "file": "attempts/05_phases/attempt_001.png",
+          "metadata": "attempts/05_phases/attempt_001.json",
+          "pass": true,
+          "score": 0.98,
+          "failures": [],
+          "summary": "All rubric items are met. TTFT and TBT are clearly distinct, with TTFT as a single block and TBT as repeating ticks/labels along a left-to-right timeline. The title 'Phases' is visible in the top-left, and the overall design is playful, cute, minimal, and consistent with the requested pastel vector style."
+        }
+      ]
+    },
+    "06_output_dominates": {
+      "title": "Output",
+      "final_image": "final/06_output_dominates.png",
+      "attempts": [
+        {
+          "file": "attempts/06_output_dominates/attempt_001.png",
+          "metadata": "attempts/06_output_dominates/attempt_001.json",
+          "pass": true,
+          "score": 0.95,
+          "failures": [],
+          "summary": "All rubric items are met: the output token chain is clearly longer than the small input block, the clocks and varied hand positions visually imply each token adds time, the title \u2018Output\u2019 is visible in the top-left, and the overall style is playful, rounded, pastel, and friendly. Only minor clarity tweaks are suggested."
+        }
+      ]
+    },
+    "07_cadence_scatter": {
+      "title": "Cadence",
+      "final_image": "final/07_cadence_scatter.png",
+      "attempts": [
+        {
+          "file": "attempts/07_cadence_scatter/attempt_001.png",
+          "metadata": "attempts/07_cadence_scatter/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: there is a scatter plot with labeled axes ('ms/token' and 'tok/min/GPU'), the axis labels are short and readable, the dots form a clear upward trend, and the title 'Cadence' appears prominently at the top-left."
+        }
+      ]
+    },
+    "08_model_size": {
+      "title": "Size",
+      "final_image": "final/08_model_size.png",
+      "attempts": [
+        {
+          "file": "attempts/08_model_size/attempt_001.png",
+          "metadata": "attempts/08_model_size/attempt_001.json",
+          "pass": true,
+          "score": 10.0,
+          "failures": [],
+          "summary": "All rubric items are met: the three model blocks clearly increase in size and are labeled small/medium/large; the speed gauge points to higher speed near the smallest block area, visually implying larger size is slower; the title 'Size' is clearly visible in the top-left; and the overall design is playful, minimal, and matches the requested pastel, rounded vector style."
+        }
+      ]
+    },
+    "09_input_vs_output": {
+      "title": "Input vs output",
+      "final_image": "final/09_input_vs_output.png",
+      "attempts": [
+        {
+          "file": "attempts/09_input_vs_output/attempt_001.png",
+          "metadata": "attempts/09_input_vs_output/attempt_001.json",
+          "pass": false,
+          "score": 0.8,
+          "failures": [
+            "Title 'Input vs output' is not in the top-left corner as requested; it is centered near the top instead."
+          ],
+          "summary": "Most rubric items are met: input and output lanes are clearly labeled, the output appears more valuable (larger pills, sparkles, coins) and implies more processing time, and the style is playful with a clear composition. The only miss is that the title is not placed in the top-left as specified, so adjust its position to fully match the rubric."
+        },
+        {
+          "file": "attempts/09_input_vs_output/attempt_001.png",
+          "metadata": "attempts/09_input_vs_output/attempt_001.json",
+          "pass": true,
+          "score": 9.5,
+          "failures": [],
+          "summary": "All rubric items are met: both lanes are clearly labeled Input and Output, the output lane conveys higher value with larger, more elaborate pills and a heart, the title 'Input vs output' is visible at the top, and the style is playful, pastel, and cleanly composed. Minor tweaks could further stress the slower/more expensive nature of the output."
+        }
+      ]
+    },
+    "10_context_kv": {
+      "title": "Context",
+      "final_image": "final/10_context_kv.png",
+      "attempts": [
+        {
+          "file": "attempts/10_context_kv/attempt_001.png",
+          "metadata": "attempts/10_context_kv/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are met: context growth is visualized by a lengthening KV trailer, KV/memory growth is implied by increasing disk stacks with arrows, the title 'Context' is clearly visible in the top-left, and the illustration is playful, cute, and minimal in style using a pastel palette. Minor tweaks could make the growth and memory-pressure concepts even more explicit."
+        }
+      ]
+    },
+    "11_cached_prefix": {
+      "title": "Cached prefix",
+      "final_image": "final/11_cached_prefix.png",
+      "attempts": [
+        {
+          "file": "attempts/11_cached_prefix/attempt_001.png",
+          "metadata": "attempts/11_cached_prefix/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are met: the cached segment is clearly highlighted with bright color and a check icon, the uncached new segment is visible and gray for contrast, the title 'Cached prefix' is clearly readable in the top-left, and the overall style is playful, clean, and vector-based."
+        }
+      ]
+    },
+    "12_long_requests": {
+      "title": "Long requests",
+      "final_image": "final/12_long_requests.png",
+      "attempts": [
+        {
+          "file": "attempts/12_long_requests/attempt_001.png",
+          "metadata": "attempts/12_long_requests/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: the left side shows wide vehicles squeezed into a narrow lane (batching difficulty), the right side shows a clear rising cost curve labeled 'cost', the title 'Long requests' is visible in the top-left, and the illustration uses a playful, minimal vector style with pastel colors and soft shapes."
+        }
+      ]
+    },
+    "13_congestion": {
+      "title": "Congestion",
+      "final_image": "final/13_congestion.png",
+      "attempts": [
+        {
+          "file": "attempts/13_congestion/attempt_001.png",
+          "metadata": "attempts/13_congestion/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: a clear queue of cars is visible at the toll booth, delay is indicated by a large clock and a \u201cDELAY\u201d sign, the title \u201cCongestion\u201d appears at the top left, and the overall style is playful, vector-like, minimal, and uses a soft pastel palette on an off\u2011white background."
+        }
+      ]
+    },
+    "14_batching": {
+      "title": "Batching",
+      "final_image": "final/14_batching.png",
+      "attempts": [
+        {
+          "file": "attempts/14_batching/attempt_001.png",
+          "metadata": "attempts/14_batching/attempt_001.json",
+          "pass": true,
+          "score": 0.98,
+          "failures": [],
+          "summary": "All rubric items are met: the ramp light pulses are clearly visible around the green and red lights, low vs high batch behavior is implied by a few cars flowing versus a long queue then large release, the title 'Batching' is visible in the top-left, and the overall style is playful, cute, and minimal with pastel colors and soft shadows."
+        }
+      ]
+    },
+    "15_routing": {
+      "title": "Routing",
+      "final_image": "final/15_routing.png",
+      "attempts": [
+        {
+          "file": "attempts/15_routing/attempt_001.png",
+          "metadata": "attempts/15_routing/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: two distinct routing choices are clearly visible, the wait vs travel tradeoff is implied with a queued path vs a timed world-route, the title 'Routing' appears in the top-left, and the overall style is playful, cute, and minimal with pastel colors and rounded shapes."
+        }
+      ]
+    },
+    "16_speedups": {
+      "title": "Speedups",
+      "final_image": "final/16_speedups.png",
+      "attempts": [
+        {
+          "file": "attempts/16_speedups/attempt_001.png",
+          "metadata": "attempts/16_speedups/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "   "
+        }
+      ]
+    },
+    "17_smaller_models": {
+      "title": "Smaller",
+      "final_image": "final/17_smaller_models.png",
+      "attempts": [
+        {
+          "file": "attempts/17_smaller_models/attempt_001.png",
+          "metadata": "attempts/17_smaller_models/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are met: smaller models are represented by stacks of blocks with fewer pieces, speed improvement is implied by the gauge and faster rabbit versus slower turtle, the title 'Smaller' is clearly visible in the top-left, and the overall style is playful and cute with pastel colors and rounded vector shapes."
+        }
+      ]
+    },
+    "18_moe": {
+      "title": "MoE",
+      "final_image": "final/18_moe.png",
+      "attempts": [
+        {
+          "file": "attempts/18_moe/attempt_001.png",
+          "metadata": "attempts/18_moe/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: the router clearly routes tokens to a subset of brighter, active expert blocks while others are visibly dimmed; the title \u2018MoE\u2019 is present in the top-left; and the overall style is playful, cute, and clean with a clear central composition."
+        }
+      ]
+    },
+    "19_proxy": {
+      "title": "Proxy",
+      "final_image": "final/19_proxy.png",
+      "attempts": [
+        {
+          "file": "attempts/19_proxy/attempt_001.png",
+          "metadata": "attempts/19_proxy/attempt_001.json",
+          "pass": true,
+          "score": 0.98,
+          "failures": [],
+          "summary": "All rubric items are clearly met: the playful pastel vector style is correct, the title \u2018Proxy\u2019 is visible in the top-left, a stream of draft tokens flows into a central checkmark gate (verification step), and the output side suggests a grouped/batch result. Only minor tweaks are needed to more overtly signal \u2018batch\u2019 and enhance slide readability."
+        }
+      ]
+    },
+    "20_quantize": {
+      "title": "Quantize",
+      "final_image": "final/20_quantize.png",
+      "attempts": [
+        {
+          "file": "attempts/20_quantize/attempt_001.png",
+          "metadata": "attempts/20_quantize/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are met: the 16-bit \u2192 8-bit \u2192 4-bit ladder clearly shows lower precision steps, the large rising arrow behind the chip implies speed increase, the word 'Quantize' is visible at the top-left, and the overall illustration is playful, cute, and pastel. Only minor clarifications could make the message even more explicit."
+        }
+      ]
+    },
+    "21_kv_cache": {
+      "title": "KV cache",
+      "final_image": "final/21_kv_cache.png",
+      "attempts": [
+        {
+          "file": "attempts/21_kv_cache/attempt_001.png",
+          "metadata": "attempts/21_kv_cache/attempt_001.json",
+          "pass": true,
+          "score": 0.98,
+          "failures": [],
+          "summary": "All rubric items are met: cache reuse is clearly depicted with arrows between colorful memory blocks, eviction is visually de-emphasized using a dim gray sad block, the title 'KV cache' is clearly visible in the top-left, and the style is playful, minimal, and pastel. Only minor tweaks are possible to further highlight reuse and downplay eviction."
+        }
+      ]
+    },
+    "22_capacity": {
+      "title": "Capacity",
+      "final_image": "final/22_capacity.png",
+      "attempts": [
+        {
+          "file": "attempts/22_capacity/attempt_001.png",
+          "metadata": "attempts/22_capacity/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are met: additional capacity is depicted with a second rack cluster and a plus sign, the queue on the right is shorter than the queue on the left, the title \u2018Capacity\u2019 is clearly visible in the top-left, and the illustration uses a playful, cute vector style with pastel colors and rounded shapes."
+        }
+      ]
+    },
+    "23_wafer": {
+      "title": "Wafer",
+      "final_image": "final/23_wafer.png",
+      "attempts": [
+        {
+          "file": "attempts/23_wafer/attempt_001.png",
+          "metadata": "attempts/23_wafer/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are met: a single giant wafer-scale chip is central, speed improvement is implied by the fast arrow and flowing tokens, the title 'Wafer' is clearly visible, and the style is playful, cute, and minimal."
+        }
+      ]
+    },
+    "02_request_timing": {
+      "title": "TTFT vs TBT",
+      "final_image": "final/02_request_timing.png",
+      "attempts": [
+        {
+          "file": "attempts/02_request_timing/attempt_001.png",
+          "metadata": "attempts/02_request_timing/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: the slide has a clean corporate technical diagram style, the title text is exactly 'TTFT vs TBT', only the specified text labels appear, the full token strip with prompt and output segments is visible, the left segment is labeled 'TTFT', and the right segment is labeled 'TBT' with 'x N' under the output segment. The design passes with only minor optional refinements suggested."
+        }
+      ]
+    },
+    "03_end_to_end": {
+      "title": "End-to-end latency",
+      "final_image": "final/03_end_to_end.png",
+      "attempts": [
+        {
+          "file": "attempts/03_end_to_end/attempt_001.png",
+          "metadata": "attempts/03_end_to_end/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items satisfied: correct title text, only specified labels, all required pipeline segments present and legible, and the visual style matches a clean, deadpan corporate technical diagram."
+        }
+      ]
+    },
+    "04_output_dominates": {
+      "title": "Why output dominates",
+      "final_image": "final/04_output_dominates.png",
+      "attempts": [
+        {
+          "file": "attempts/04_output_dominates/attempt_001.png",
+          "metadata": "attempts/04_output_dominates/attempt_001.json",
+          "pass": false,
+          "score": 0.6,
+          "failures": [
+            "The slide contains extra text beyond the specified labels: 'Input', 'Compute', and multiple 'Output' labels appear even though the prompt says the only text should be 'Why output dominates'.",
+            "The prompt requested that the only text be 'Why output dominates', but the compute and token blocks are labeled with additional words, violating the 'No extra text appears beyond the specified labels' rubric item."
+          ],
+          "summary": "Visual style and structural logic match the requested concept (one input compute vs. many repeated output computes), but the presence of additional labels like 'Input', 'Compute', and 'Output' violates the requirement that the only text on the slide be the title 'Why output dominates', so the slide does not pass."
+        },
+        {
+          "file": "attempts/04_output_dominates/attempt_002.png",
+          "metadata": "attempts/04_output_dominates/attempt_002.json",
+          "pass": false,
+          "score": 0.6,
+          "failures": [
+            "Additional text beyond the specified title is present: the label 'Input' appears under the first block.",
+            "The prompt refinement required removing all text from within or near blocks so that the only text on the slide is the title, which is violated.",
+            "The title is not placed clearly in the top-left corner relative to the overall canvas margin (it appears slightly inset but not strongly anchored as described)."
+          ],
+          "summary": "Diagram style and structure (single input compute followed by repeated output compute steps) are correct, but the presence of the extra 'Input' label and minor title placement issues violate the strict text constraints, so the slide does not pass."
+        },
+        {
+          "file": "attempts/04_output_dominates/attempt_003.png",
+          "metadata": "attempts/04_output_dominates/attempt_003.json",
+          "pass": true,
+          "score": 0.96,
+          "failures": [],
+          "summary": "All rubric items are met: clean technical diagram with a deadpan feel, exact title text in the top-left, no extra text, and a clear visual story where a single input is processed once and outputs pass through repeated compute blocks sequentially."
+        }
+      ]
+    },
+    "05_tradeoffs": {
+      "title": "Tradeoffs",
+      "final_image": "final/05_tradeoffs.png",
+      "attempts": [
+        {
+          "file": "attempts/05_tradeoffs/attempt_001.png",
+          "metadata": "attempts/05_tradeoffs/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: the slide uses a clean technical vector style, the title is exactly 'Tradeoffs' in the top-left, no extra text is present, and the triangle clearly has corners labeled 'capability', 'cost', and 'latency'."
+        }
+      ]
+    },
+    "06_latency_throughput": {
+      "title": "Trade-off Between Latency and Throughput",
+      "final_image": "final/06_latency_throughput.png",
+      "attempts": [
+        {
+          "file": "attempts/06_latency_throughput/attempt_001.png",
+          "metadata": "attempts/06_latency_throughput/attempt_001.json",
+          "pass": false,
+          "score": 0.8,
+          "failures": [
+            "X-axis label includes an extra arrow symbol not specified in the prompt ('tok/min/GPU \u2192' instead of exactly 'tok/min/GPU')."
+          ],
+          "summary": "Visual style, title text, scatter plot density/trend, and axis naming are all correct, but the x-axis label contains an extra arrow character, violating the 'no extra text' requirement."
+        },
+        {
+          "file": "attempts/06_latency_throughput/attempt_002.png",
+          "metadata": "attempts/06_latency_throughput/attempt_002.json",
+          "pass": false,
+          "score": 0.8,
+          "failures": [
+            "X-axis label includes an arrow glyph at the axis end, violating the requirement that the only text there be exactly 'tok/min/GPU'."
+          ],
+          "summary": "Most rubric items are satisfied: clean corporate technical style, correct title text, only the specified textual labels, and a noisy upward-trending scatter plot with correctly labeled axes. However, the x-axis still ends in an arrow glyph, which conflicts with the refinement that the x-axis label text must be exactly 'tok/min/GPU' with no arrow. Removing that arrow would make the slide fully compliant."
+        },
+        {
+          "file": "attempts/06_latency_throughput/attempt_003.png",
+          "metadata": "attempts/06_latency_throughput/attempt_003.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: the style is clean and technical, the title text matches exactly, only the three specified text strings appear, the scatter plot has many points with a noisy upward trend, and the axes are correctly labeled 'tok/min/GPU' and 'ms/token'. The slide passes."
+        }
+      ]
+    },
+    "07_congestion": {
+      "title": "Congestion",
+      "final_image": "final/07_congestion.png",
+      "attempts": [
+        {
+          "file": "attempts/07_congestion/attempt_001.png",
+          "metadata": "attempts/07_congestion/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: clean technical style with subtle shadows and corporate palette, title text exactly 'Congestion' in the top-left, no extra text, a clear queue of multiple incoming request arrows funneled into a single service lane, and a clock icon indicating delay. The slide passes fully."
+        }
+      ]
+    },
+    "08_batching": {
+      "title": "Batching",
+      "final_image": "final/08_batching.png",
+      "attempts": [
+        {
+          "file": "attempts/08_batching/attempt_001.png",
+          "metadata": "attempts/08_batching/attempt_001.json",
+          "pass": false,
+          "score": 6.0,
+          "failures": [
+            "Extra text 'Batch' appears inside the batch box, violating the requirement that only 'Batching' and 'GPU' appear as text.",
+            "Diagram text does not strictly follow the 'only exact text specified' constraint; 'Batch' is not allowed."
+          ],
+          "summary": "The visual style, title placement, stacked requests, and single forward-pass arrow into the GPU are correct, but the slide fails because it includes unauthorized extra text ('Batch')."
+        },
+        {
+          "file": "attempts/08_batching/attempt_002.png",
+          "metadata": "attempts/08_batching/attempt_002.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: clean technical style, title exactly 'Batching', only extra text is 'GPU', multiple stacked strips clearly imply several requests forming a batch, and that batch feeds a GPU block via a single forward-pass arrow."
+        }
+      ]
+    },
+    "09_routing": {
+      "title": "Routing",
+      "final_image": "final/09_routing.png",
+      "attempts": [
+        {
+          "file": "attempts/09_routing/attempt_001.png",
+          "metadata": "attempts/09_routing/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: clean technical vector style, title text exactly 'Routing' in the top-left, no extra text, multiple data center nodes with visible network lines, and a clear routing choice implied by two divergent arrows from a central node."
+        }
+      ]
+    },
+    "10_model_size": {
+      "title": "Model size",
+      "final_image": "final/10_model_size.png",
+      "attempts": [
+        {
+          "file": "attempts/10_model_size/attempt_001.png",
+          "metadata": "attempts/10_model_size/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: clean technical vector style, correct title 'Model size', only specified text present, model sizes clearly labeled, and the latency arrow increases from small to large."
+        }
+      ]
+    },
+    "11_input_vs_output": {
+      "title": "Input vs output",
+      "final_image": "final/11_input_vs_output.png",
+      "attempts": [
+        {
+          "file": "attempts/11_input_vs_output/attempt_001.png",
+          "metadata": "attempts/11_input_vs_output/attempt_001.json",
+          "pass": true,
+          "score": 10.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: clean technical style with subtle shadows, correct title 'Input vs output' in the top-left, only the specified text appears, both input and output segments are clearly labeled, and the output segment visually shows higher cost through larger squares."
+        }
+      ]
+    },
+    "12_context_kv": {
+      "title": "Context + KV",
+      "final_image": "final/12_context_kv.png",
+      "attempts": [
+        {
+          "file": "attempts/12_context_kv/attempt_001.png",
+          "metadata": "attempts/12_context_kv/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: the style is clean and technical with a dry, deadpan feel; the title text is exactly 'Context + KV' in the top-left; no extra text beyond 'Context + KV' and 'KV' appears; the taller KV stack is visually linked to the longer request strip via the arrow; and the KV block is clearly labeled 'KV'."
+        }
+      ]
+    },
+    "13_cached_prefix": {
+      "title": "Cached prefix",
+      "final_image": "final/13_cached_prefix.png",
+      "attempts": [
+        {
+          "file": "attempts/13_cached_prefix/attempt_001.png",
+          "metadata": "attempts/13_cached_prefix/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: the style is a clean technical diagram with muted colors and subtle shadows; the title text is exactly 'Cached prefix' in the top-left; the only other text is 'cached' and 'new'; the prompt bar is clearly split and labeled; and output tokens are visually shown after the prompt bar. The slide passes."
+        }
+      ]
+    },
+    "14_long_requests": {
+      "title": "Long requests",
+      "final_image": "final/14_long_requests.png",
+      "attempts": [
+        {
+          "file": "attempts/14_long_requests/attempt_001.png",
+          "metadata": "attempts/14_long_requests/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items satisfied: clean deadpan technical style, correct title text, only specified labels present, clear batching difficulty on the left, and a rising cost curve on the right."
+        }
+      ]
+    },
+    "15_speedups": {
+      "title": "Speedups",
+      "final_image": "final/15_speedups.png",
+      "attempts": [
+        {
+          "file": "attempts/15_speedups/attempt_001.png",
+          "metadata": "attempts/15_speedups/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: clean technical diagram style with subtle deadpan humor via the sticky note, title text exactly 'Speedups' in the top-left, no extra text beyond the required title, and the visual clearly serves as a section opener for speedups."
+        }
+      ]
+    },
+    "16_smaller_models": {
+      "title": "Smaller models",
+      "final_image": "final/16_smaller_models.png",
+      "attempts": [
+        {
+          "file": "attempts/16_smaller_models/attempt_001.png",
+          "metadata": "attempts/16_smaller_models/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric criteria are satisfied: the style is clean and technical with a subtle deadpan feel, the title text is exactly 'Smaller models', only the specified texts 'Smaller models' and 'faster' appear, and the diagram clearly shows smaller model blocks associated with faster speed along the arrow."
+        }
+      ]
+    },
+    "17_moe": {
+      "title": "MoE",
+      "final_image": "final/17_moe.png",
+      "attempts": [
+        {
+          "file": "attempts/17_moe/attempt_001.png",
+          "metadata": "attempts/17_moe/attempt_001.json",
+          "pass": false,
+          "score": 0.8,
+          "failures": [
+            "No extra text appears beyond the specified labels: The diagram includes unlabeled icons and shapes that are acceptable, but the three small white indicators on the router are arguably textual/semantic marks beyond 'MoE' and 'expert'.",
+            "Inactive experts are visibly skipped: While inactive experts are dimmed with dashed outlines, the routing arrows appear to target all central blocks equally, so it is ambiguous whether inactive experts are being skipped rather than just visually de-emphasized."
+          ],
+          "summary": "Most rubric items are satisfied: the style is clean and technical with a deadpan feel, the title reads exactly 'MoE', and only the active experts are labeled 'expert' with others dimmed. However, the routing does not clearly skip inactive experts, and there is slight ambiguity about extra semantic markings on the router, so it does not fully meet all rubric conditions."
+        },
+        {
+          "file": "attempts/17_moe/attempt_002.png",
+          "metadata": "attempts/17_moe/attempt_002.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: clean corporate technical style, title is exactly 'MoE', only additional text is 'expert' on the active blocks, a clear subset of experts are active, and inactive experts are visibly skipped via greyed-out blocks and dashed, non-token-carrying connectors."
+        }
+      ]
+    },
+    "18_proxy": {
+      "title": "Proxy model",
+      "final_image": "final/18_proxy.png",
+      "attempts": [
+        {
+          "file": "attempts/18_proxy/attempt_001.png",
+          "metadata": "attempts/18_proxy/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: the slide has a clean corporate technical style with muted tones and subtle shadows; the title in the top-left reads exactly 'Proxy model'; the only other text is 'draft' and 'verify'; a block of five tokens is shown as a swatch; and a verify gate appears after the draft block. The slide passes."
+        }
+      ]
+    },
+    "19_quantization": {
+      "title": "Quantization",
+      "final_image": "final/19_quantization.png",
+      "attempts": [
+        {
+          "file": "attempts/19_quantization/attempt_001.png",
+          "metadata": "attempts/19_quantization/attempt_001.json",
+          "pass": false,
+          "score": 0.9,
+          "failures": [
+            "The diagram contains additional text-like glyphs (the small grid of rectangular blocks inside the 16-bit block), which can be interpreted as extra markings beyond the strictly allowed labels 'Quantization', '16-bit', '8-bit', '4-bit'."
+          ],
+          "summary": "Nearly perfect slide: correct title, clean corporate-technical style, proper 16/8/4-bit stack, and a rightward speed arrow. The only issue is the additional glyph grid inside the top block, which violates the strict 'no extra text/marks' constraint."
+        },
+        {
+          "file": "attempts/19_quantization/attempt_002.png",
+          "metadata": "attempts/19_quantization/attempt_002.json",
+          "pass": true,
+          "score": 10.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: clean technical style, exact title 'Quantization', only specified text labels, 16/8/4-bit precision levels clearly shown, and a rightward arrow implying speed increase."
+        }
+      ]
+    },
+    "20_kv_cache": {
+      "title": "KV cache",
+      "final_image": "final/20_kv_cache.png",
+      "attempts": [
+        {
+          "file": "attempts/20_kv_cache/attempt_001.png",
+          "metadata": "attempts/20_kv_cache/attempt_001.json",
+          "pass": true,
+          "score": 0.96,
+          "failures": [],
+          "summary": "All rubric items are met: the slide has a clean corporate technical style, the title text is exactly 'KV cache' in the top-left, only the allowed labels ('KV cache', 'evict') are present, reuse arrows are clearly shown around the KV cache block, and eviction is represented by a dimmed trash bin labeled 'evict' that\u2019s visually de-emphasized relative to the main diagram."
+        }
+      ]
+    },
+    "21_capacity": {
+      "title": "Capacity",
+      "final_image": "final/21_capacity.png",
+      "attempts": [
+        {
+          "file": "attempts/21_capacity/attempt_001.png",
+          "metadata": "attempts/21_capacity/attempt_001.json",
+          "pass": false,
+          "score": 0.8,
+          "failures": [
+            "The slide includes extra text beyond the specified labels: there is an additional server box on the right also labeled 'server' (only one 'server' label was implied by the prompt).",
+            "Queue length does not visibly decrease: there are three people in the queue on the left and also three people on the right, so no reduction is illustrated."
+          ],
+          "summary": "Most rubric items are met: the style is clean and technical, the title reads exactly 'Capacity', and additional GPUs are clearly added. However, there is extra text beyond what was implied (a second 'server' label) and the queue length does not visibly decrease, so the slide does not fully satisfy the prompt."
+        },
+        {
+          "file": "attempts/21_capacity/attempt_002.png",
+          "metadata": "attempts/21_capacity/attempt_002.json",
+          "pass": false,
+          "score": 0.6,
+          "failures": [
+            "The diagram shows two separate server boxes, each labeled 'server', rather than a single serving engine instance gaining additional GPUs.",
+            "There are two 'server' labels instead of a single 'server' label on the serving engine, violating the text limitation requirement."
+          ],
+          "summary": "Styling, title, GPU increase, and shorter output queue are correct, but the slide fails the text and single-engine requirements because it shows two separate, labeled servers instead of one engine with added GPUs and only one 'server' label."
+        },
+        {
+          "file": "attempts/21_capacity/attempt_003.png",
+          "metadata": "attempts/21_capacity/attempt_003.json",
+          "pass": false,
+          "score": 0.6,
+          "failures": [
+            "Diagram shows two distinct server chassis side by side instead of a single server that clearly gains GPUs (violates refinement).",
+            "There are two separate 'server' labels, one under each chassis; only one 'server' label should appear (violates refinement and no-extra-text spirit)."
+          ],
+          "summary": "Title and style are correct, GPUs are added, and the queue shortens, but the image still uses two separate servers and includes two 'server' labels, so it does not meet the refined requirements."
+        },
+        {
+          "file": "attempts/21_capacity/attempt_004.png",
+          "metadata": "attempts/21_capacity/attempt_004.json",
+          "pass": false,
+          "score": 0.6,
+          "failures": [
+            "Diagram is shown as two independent servers rather than a single composite layout with before/after GPU expansion within one chassis.",
+            "Both server chassis are labeled 'server' instead of having only a single 'server' label overall."
+          ],
+          "summary": "Styling, title text, GPU increase, and queue shortening all satisfy the rubric, but the diagram still uses two separate labeled servers instead of a single composite chassis with only one 'server' label."
+        },
+        {
+          "file": "attempts/21_capacity/attempt_001.png",
+          "metadata": "attempts/21_capacity/attempt_001.json",
+          "pass": false,
+          "score": 0.5,
+          "failures": [
+            "Diagram shows two separate server chassis instead of exactly one server chassis.",
+            "No visible queue of request strips that becomes shorter after GPUs are added; instead stacks of devices are shown both before and after.",
+            "Diagram uses multiple plus signs and separate before/after scenes rather than a single chassis with GPUs added inside the same diagram."
+          ],
+          "summary": "Styling and text are mostly correct, but the diagram uses two servers and lacks the required single-chassis upgrade with a visibly shortened request queue after adding GPUs, so it does not meet the rubric."
+        },
+        {
+          "file": "attempts/21_capacity/attempt_001.png",
+          "metadata": "attempts/21_capacity/attempt_001.json",
+          "pass": false,
+          "score": 0.3,
+          "failures": [
+            "The diagram shows two separate server chassis instead of exactly one server chassis.",
+            "The plus sign is between two servers rather than indicating GPUs being added inside the same chassis.",
+            "The shorter queue is associated with the second server, not a single server before-and-after within one diagram."
+          ],
+          "summary": "Styling, title, and text constraints are correct, but the visual logic is wrong: it uses two servers instead of one server with added GPUs and a before/after queue."
+        },
+        {
+          "file": "attempts/21_capacity/attempt_002.png",
+          "metadata": "attempts/21_capacity/attempt_002.json",
+          "pass": false,
+          "score": 0.5,
+          "failures": [
+            "Diagram shows two separate server chassis instead of exactly one.",
+            "Additional GPUs are depicted in a second server, not clearly added inside the same single chassis.",
+            "The request queue is only shown on the left; there is no visibly shorter queue after the GPUs are added on the right."
+          ],
+          "summary": "Styling, title, and text usage are correct, but the diagram fails the core structural requirements: it shows two servers instead of one, does not clearly add GPUs inside a single chassis, and omits a shorter post-upgrade queue."
+        },
+        {
+          "file": "attempts/21_capacity/attempt_001.png",
+          "metadata": "attempts/21_capacity/attempt_001.json",
+          "pass": false,
+          "score": 0.5,
+          "failures": [
+            "Diagram shows two separate chassis units (a server plus a separate GPU expansion box) instead of additional GPUs clearly added inside the same single chassis.",
+            "The GPU bay is not clearly visible as an internal addition within the labeled server chassis; instead, it appears as a distinct second device.",
+            "The queue of request strips is positioned before the first chassis and after the second chassis, implying processing by a chain of devices rather than a single chassis with upgraded internal GPUs."
+          ],
+          "summary": "Styling, title text, and label constraints are correct, but the illustration incorrectly uses two chassis rather than a single server with added internal GPUs, and the queue change is tied to this two-device layout."
+        },
+        {
+          "file": "attempts/21_capacity/attempt_007.png",
+          "metadata": "attempts/21_capacity/attempt_007.json",
+          "pass": false,
+          "score": 0.5,
+          "failures": [
+            "No plus sign is present between the two queues to indicate added capacity.",
+            "Only one request queue is clearly feeding the server; the second (short) queue is depicted on the output side of the server instead of also feeding into it.",
+            "Arrows show flow from the long queue to the server and from the server to the short queue, rather than two queues both feeding the same server as specified."
+          ],
+          "summary": "Styling, title text, and server labeling are correct, but the required capacity concept is not: both queues must feed the same server with a plus sign between them, which is missing and misarranged here."
+        },
+        {
+          "file": "attempts/21_capacity/attempt_008.png",
+          "metadata": "attempts/21_capacity/attempt_008.json",
+          "pass": false,
+          "score": 0.67,
+          "failures": [
+            "Two request queues of different length feed the same server (one longer, one shorter) is not satisfied: the diagram shows only one input queue on the left and one output queue on the right, instead of two input queues feeding the server.",
+            "A plus sign indicating added capacity is present, but without the second input queue it does not clearly sit between two request queues as specified."
+          ],
+          "summary": "Styling, title text, labels, and single server are correct, but the required second input request queue feeding the server is missing, and the plus sign therefore does not sit between two request queues as specified."
+        },
+        {
+          "file": "attempts/21_capacity/attempt_009.png",
+          "metadata": "attempts/21_capacity/attempt_009.json",
+          "pass": false,
+          "score": 0.5,
+          "failures": [
+            "Extra text beyond specified labels appears: 'Long queue' and 'Short queue' are present in addition to 'Capacity' and 'server'.",
+            "The two request queues are not both feeding into the same server; the long queue feeds the server, and the short queue appears on the output side of the server instead of as a second input queue."
+          ],
+          "summary": "Diagram style, title text, single labeled server chassis, and plus sign all meet the rubric, but extra labels and incorrect queue arrangement cause the slide to fail."
+        },
+        {
+          "file": "attempts/21_capacity/attempt_010.png",
+          "metadata": "attempts/21_capacity/attempt_010.json",
+          "pass": false,
+          "score": 0.67,
+          "failures": [
+            "No extra text appears beyond the specified labels.",
+            "Two request queues of different length feed the same server (one longer, one shorter)."
+          ],
+          "summary": "The style, title text, single server labeled 'server', and plus sign are correct. However, there are arrow glyphs that count as extra text/characters beyond the specified labels, and the right-hand blocks are shown as an output queue rather than a second input queue feeding the server."
+        },
+        {
+          "file": "attempts/21_capacity/attempt_011.png",
+          "metadata": "attempts/21_capacity/attempt_011.json",
+          "pass": false,
+          "score": 0.67,
+          "failures": [
+            "Two request queues are not both feeding the same server; the long queue feeds the server, and the short queue appears on the output side instead of as a second input queue.",
+            "The plus sign visually indicates combining a long queue with the server, not added capacity from a second (short) queue into the same server."
+          ],
+          "summary": "Most style and text constraints are met, but the diagram fails the requirement that two request queues of different lengths both feed the same server, with a plus sign indicating added capacity from the second queue."
+        },
+        {
+          "file": "attempts/21_capacity/attempt_012.png",
+          "metadata": "attempts/21_capacity/attempt_012.json",
+          "pass": false,
+          "score": 0.5,
+          "failures": [
+            "Extra text appears: 'Long queue' and 'Short queue' are present, violating the requirement that only 'Capacity' and 'server' appear as text.",
+            "The two request queues are not both feeding into the server; the left (long) queue feeds into the server, but the right (short) queue is shown as output from the server instead of an input feed.",
+            "The plus sign is positioned under the server rather than clearly between the two queues to indicate added capacity."
+          ],
+          "summary": "Styling and title are correct, and there is a single labeled server, but the slide fails due to extra text labels and incorrect diagram logic/placement of the plus sign and queues."
+        },
+        {
+          "file": "attempts/21_capacity/attempt_013.png",
+          "metadata": "attempts/21_capacity/attempt_013.json",
+          "pass": false,
+          "score": 0.5,
+          "failures": [
+            "Two request queues do not both feed into the same server; the long queue is shown feeding into a plus sign and then the server, while the short queue is shown after the server as an output queue.",
+            "The plus sign does not clearly indicate added capacity between two input queues; it is visually between the long queue and the server, not between two queues.",
+            "Overall diagram concept does not match the prompt\u2019s requirement of two queues (one long, one short) both feeding the same single server."
+          ],
+          "summary": "Visual style, title, and labeling are correct, but the logical structure of the diagram is wrong: the short queue appears as an output, not a second input feeding the same server, and the plus sign is misplaced."
+        },
+        {
+          "file": "attempts/21_capacity/attempt_014.png",
+          "metadata": "attempts/21_capacity/attempt_014.json",
+          "pass": false,
+          "score": 0.67,
+          "failures": [
+            "Two request queues of different length feed the same server (one longer, one shorter).",
+            "A plus sign indicates added capacity.",
+            "No extra text appears beyond the specified labels."
+          ],
+          "summary": "The slide has the correct clean technical style, correct title text, and exactly one labeled server, but it fails to clearly show two differently sized queues both feeding the same server, the plus sign does not unambiguously indicate added capacity between the queues, and there is an extra decorative line beyond the strictly specified elements."
+        },
+        {
+          "file": "attempts/21_capacity/attempt_015.png",
+          "metadata": "attempts/21_capacity/attempt_015.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric requirements are satisfied: clean technical style, title exactly 'Capacity', only additional label is 'server', exactly one server chassis shown and labeled, two queues of different length feed the same server, and a plus sign visually indicates added capacity."
+        },
+        {
+          "file": "attempts/21_capacity/attempt_018.png",
+          "metadata": "attempts/21_capacity/attempt_018.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are satisfied: the slide uses a clean deadpan technical style, the title reads exactly 'Capacity', only 'Capacity' and 'server' text appear, there is exactly one labeled server chassis with an attached plus sign, and both the short foreground queue and faint longer background queue are visible."
+        },
+        {
+          "file": "attempts/21_capacity/attempt_020.png",
+          "metadata": "attempts/21_capacity/attempt_020.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric conditions are satisfied: clean technical style, correct title text, only the specified words appear, exactly one labeled server chassis with an attached plus sign, and both the short foreground queue and faint longer background queue are present."
+        }
+      ]
+    },
+    "22_wafer": {
+      "title": "Wafer-scale",
+      "final_image": "final/22_wafer.png",
+      "attempts": [
+        {
+          "file": "attempts/22_wafer/attempt_001.png",
+          "metadata": "attempts/22_wafer/attempt_001.json",
+          "pass": true,
+          "score": 0.96,
+          "failures": [],
+          "summary": "All rubric items are satisfied: clean corporate technical style with subtle humor, correct title text 'Wafer-scale' in the top-left, no extra text, a single oversized wafer-scale chip replacing a grid of many small chips, and arrows that clearly imply faster token flow across the large wafer. The slide passes."
+        }
+      ]
+    },
+    "23_do_your_own_work": {
+      "title": "Do the work",
+      "final_image": "final/23_do_your_own_work.png",
+      "attempts": [
+        {
+          "file": "attempts/23_do_your_own_work/attempt_001.png",
+          "metadata": "attempts/23_do_your_own_work/attempt_001.json",
+          "pass": true,
+          "score": 10.0,
+          "failures": [],
+          "summary": "All rubric criteria are fully satisfied; the slide passes without issues."
+        }
+      ]
+    },
+    "23_what_really_matters": {
+      "title": "What matters",
+      "final_image": "final/23_what_really_matters.png",
+      "attempts": [
+        {
+          "file": "attempts/23_what_really_matters/attempt_001.png",
+          "metadata": "attempts/23_what_really_matters/attempt_001.json",
+          "pass": true,
+          "score": 1.0,
+          "failures": [],
+          "summary": "All rubric items are met: clean deadpan corporate vector style, correct title text, no extra text, a clear waiting chat bubble and queue motif, and an obvious priority ribbon highlighting the queue. Slide passes."
+        }
+      ]
+    },
+    "24_do_your_own_work": {
+      "title": "Do the work",
+      "final_image": "final/24_do_your_own_work.png",
+      "attempts": [
+        {
+          "file": "attempts/24_do_your_own_work/attempt_001.png",
+          "metadata": "attempts/24_do_your_own_work/attempt_001.json",
+          "pass": false,
+          "score": 0.85,
+          "failures": [
+            "The diagram shows a playground slide icon instead of a simple presentation slide icon as specified ('simple slide icon')."
+          ],
+          "summary": "Most rubric items are met: deadpan technical style, correct title text, correct stamp text, no extra text, large visible stamp, and over-the-top composition. However, the central icon is a playground slide instead of a simple presentation slide icon, so it does not fully satisfy the specified diagram requirement."
+        },
+        {
+          "file": "attempts/24_do_your_own_work/attempt_002.png",
+          "metadata": "attempts/24_do_your_own_work/attempt_002.json",
+          "pass": false,
+          "score": 7.0,
+          "failures": [
+            "The diagram uses a playground slide icon instead of a simple presentation slide icon, which does not match the requested \"simple slide icon\" metaphor.",
+            "While the overall style is clean and vector-based, it leans more toward playful illustration than a strictly \"deadpan corporate technical diagram\" style."
+          ],
+          "summary": "Text, placement, colors, and over-the-top composition are correct, but the icon is a playground slide rather than a presentation slide, and the style is more playful illustration than deadpan corporate technical diagram."
+        },
+        {
+          "file": "attempts/24_do_your_own_work/attempt_003.png",
+          "metadata": "attempts/24_do_your_own_work/attempt_003.json",
+          "pass": false,
+          "score": 0.83,
+          "failures": [
+            "The diagram shows a playground slide rather than a recognizable presentation slide icon as requested.",
+            "The background object being stamped is not clearly identifiable as a slide *icon*; it looks like a physical playground slide."
+          ],
+          "summary": "Most rubric items are met: clean technical vector style with deadpan humor, correct title text 'Do the work', correct stamp text 'DO YOUR OWN WORK', no extra text, large stamp clearly visible, and an over-the-top composition. However, the object under the stamp is visually a playground slide rather than a clear slide icon, so it does not fully satisfy the requirement for a simple slide icon being stamped."
+        },
+        {
+          "file": "attempts/24_do_your_own_work/attempt_004.png",
+          "metadata": "attempts/24_do_your_own_work/attempt_004.json",
+          "pass": false,
+          "score": 0.83,
+          "failures": [
+            "The diagram shows a playground-style slide structure rather than a simple slide icon, making the iconography slightly more complex than specified.",
+            "The visual style leans more illustrative/cartoon than strictly clean technical diagram, which weakens the \"deadpan corporate technical diagram\" requirement."
+          ],
+          "summary": "Most rubric items are met: correct title text, correct stamp text, no extra text, large stamp and target with an intentionally over-the-top impact. However, the slide icon is depicted as a playground slide rather than a simple slide icon, and the style is more illustrative than a strict deadpan corporate technical diagram, so it does not fully pass the specified rubric."
+        },
+        {
+          "file": "attempts/24_do_your_own_work/attempt_005.png",
+          "metadata": "attempts/24_do_your_own_work/attempt_005.json",
+          "pass": true,
+          "score": 0.98,
+          "failures": [],
+          "summary": "All rubric requirements are met: clean, technical, deadpan style with muted palette and subtle shadows; title text is exactly \u2018Do the work\u2019 placed top-left; stamp face reads exactly \u2018DO YOUR OWN WORK\u2019; no extra text appears; a large stamp and a slide-like icon are clearly visible; and the composition is intentionally over-the-top with a dramatic burst effect. Minor possible refinement would be making the slide icon read more clearly as a slide graphic rather than a playground slide, but this doesn\u2019t violate any stated criteria."
+        }
+      ]
+    }
+  }
+}

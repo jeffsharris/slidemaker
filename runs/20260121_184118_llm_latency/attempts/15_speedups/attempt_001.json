@@ -1,0 +1,19 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Speedups'. Diagram: A clean speedometer with a subtle wink (humor via tiny sticky note icon, no text). Only text: 'Speedups'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Speedups'.",
+    "No extra text appears beyond the specified labels.",
+    "Clearly a section opener for speedups."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Ensure the title remains consistently top-left aligned with a clear margin in case this is part of a broader template, but current placement is acceptable.",
+      "Maintain consistent line weight and color palette across future slides in the same deck to reinforce the clean corporate technical style."
+    ],
+    "summary": "All rubric items are satisfied: clean technical diagram style with subtle deadpan humor via the sticky note, title text exactly 'Speedups' in the top-left, no extra text beyond the required title, and the visual clearly serves as a section opener for speedups."
+  }
+}

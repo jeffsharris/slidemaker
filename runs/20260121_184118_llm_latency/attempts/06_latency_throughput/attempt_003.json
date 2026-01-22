@@ -1,0 +1,20 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Trade-off Between Latency and Throughput'. Diagram: A scatter plot with many dots (50+). X-axis labeled 'tok/min/GPU', Y-axis labeled 'ms/token'. Trend is upward but noisy. Only text: 'Trade-off Between Latency and Throughput', 'tok/min/GPU', 'ms/token'. Refinements: Remove the arrow marker from the end of the x-axis so the only visible text near that axis is exactly 'tok/min/GPU'. Keep the scatter, trend bands, colors, and layout unchanged..",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Trade-off Between Latency and Throughput'.",
+    "No extra text appears beyond the specified labels.",
+    "Scatter plot has many points and a noisy upward trend.",
+    "Axes are labeled 'tok/min/GPU' and 'ms/token'."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "To push the deadpan corporate humor a bit further, consider slightly exaggerating the precision of the trend bands or dot density while keeping the same text constraints.",
+      "You could very subtly increase the cyan/safety orange contrast on the trend bands for even clearer technical readability without adding any new text."
+    ],
+    "summary": "All rubric items are satisfied: the style is clean and technical, the title text matches exactly, only the three specified text strings appear, the scatter plot has many points with a noisy upward trend, and the axes are correctly labeled 'tok/min/GPU' and 'ms/token'. The slide passes."
+  }
+}

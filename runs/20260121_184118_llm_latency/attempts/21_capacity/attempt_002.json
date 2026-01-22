@@ -1,0 +1,27 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Capacity'. Diagram: ONE server chassis labeled 'server' with a visible GPU bay. Show a plus sign adding extra GPUs inside the SAME chassis, not a second server. A queue of request strips feeds the chassis; the queue is visibly shorter after the added GPUs within the same diagram. Only text: 'Capacity', 'server'. Refinements: Redraw the diagram to feature only one server chassis labeled 'server'.; Depict additional GPUs being added inside that same single chassis, using a plus sign that clearly connects the GPUs to the chassis interior rather than to another server.; Show a single request queue feeding the same chassis, rendered longer on the left (before GPUs) and shorter on the right (after GPUs) without introducing a second server image..",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Capacity'.",
+    "No extra text appears beyond the specified labels.",
+    "Exactly one server chassis is shown and it is labeled 'server'.",
+    "Additional GPUs are shown added inside the same chassis.",
+    "The queue becomes shorter after the GPUs are added."
+  ],
+  "grade": {
+    "pass": false,
+    "score": 0.5,
+    "failures": [
+      "Diagram shows two separate server chassis instead of exactly one.",
+      "Additional GPUs are depicted in a second server, not clearly added inside the same single chassis.",
+      "The request queue is only shown on the left; there is no visibly shorter queue after the GPUs are added on the right."
+    ],
+    "improvements": [
+      "Redraw the diagram to contain only one server chassis, labeled 'server'. Remove the second chassis entirely.",
+      "Place the plus sign so it clearly indicates additional GPUs being inserted inside the interior of that single chassis (e.g., GPUs outside with a plus leading into open slots in the same box).",
+      "Render a single request queue feeding the chassis, with a longer queue before the GPU addition and a visibly shorter queue segment after the GPUs, all in one continuous diagram without adding another server image.",
+      "Maintain the existing clean, deadpan corporate technical style, color palette, and minimal text while applying these structural changes."
+    ],
+    "summary": "Styling, title, and text usage are correct, but the diagram fails the core structural requirements: it shows two servers instead of one, does not clearly add GPUs inside a single chassis, and omits a shorter post-upgrade queue."
+  }
+}

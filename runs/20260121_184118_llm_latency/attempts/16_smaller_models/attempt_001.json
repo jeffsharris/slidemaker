@@ -1,0 +1,19 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'Smaller models'. Diagram: Model blocks shrink with a faster arrow labeled 'faster'. Only text: 'Smaller models', 'faster'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'Smaller models'.",
+    "No extra text appears beyond the specified labels.",
+    "Smaller model size correlates with faster speed."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Maintain the current clean vector style and color palette in future slides for consistency.",
+      "If emphasizing deadpan humor further, consider slightly exaggerating the size contrast or arrow length while keeping the same minimal text."
+    ],
+    "summary": "All rubric criteria are satisfied: the style is clean and technical with a subtle deadpan feel, the title text is exactly 'Smaller models', only the specified texts 'Smaller models' and 'faster' appear, and the diagram clearly shows smaller model blocks associated with faster speed along the arrow."
+  }
+}

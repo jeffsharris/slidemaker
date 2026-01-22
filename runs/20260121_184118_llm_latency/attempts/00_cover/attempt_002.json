@@ -1,0 +1,22 @@
+{
+  "prompt": "Deadpan corporate technical diagram, clean vector lines, subtle shadows, off-white background, muted slate + graphite with cyan and safety orange accents. Big central diagram, consistent title placement top-left. Only include the exact text specified. No other text or numbers. Title text in top-left: 'What matters'. Diagram: a large chat bubble with three loading dots, a small queue of office workers waiting with coffee cups, and a tiny hourglass. Only text: 'What matters'.",
+  "rubric": [
+    "The slide uses a clean, technical diagram style with deadpan humor.",
+    "Title text reads exactly 'What matters'.",
+    "No extra text appears beyond the specified labels.",
+    "A chat bubble with loading dots and a waiting queue are visible."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 1.0,
+    "failures": [],
+    "improvements": [
+      "Style matches a clean, technical, deadpan-humor diagram with vector lines, subtle shadows, and muted palette with cyan and orange accents\u2014this aligns with the prompt.",
+      "Title text in the top-left reads exactly 'What matters' and is placed consistently along the top with a horizontal rule, matching expectations.",
+      "No additional text or numbers appear anywhere else on the slide beyond the title; the diagram elements are purely visual.",
+      "The large chat bubble with three loading dots, a visible queue of office workers holding coffee cups, and a small hourglass are all present and clearly depicted.",
+      "To push closer to the prompt, the background tone and line weights could be tuned slightly more toward a stark \u2018corporate UI\u2019 aesthetic (e.g., slightly flatter shadows, more uniform stroke widths), though this is optional rather than required."
+    ],
+    "summary": "All rubric conditions are fully satisfied; the slide passes."
+  }
+}

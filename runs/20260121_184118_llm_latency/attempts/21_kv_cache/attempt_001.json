@@ -1,0 +1,19 @@
+{
+  "prompt": "Playful, cute vector illustration with rounded shapes and soft shadows, pastel palette (mint, coral, sky blue, sunny yellow) on off-white background. Big central illustration, minimal text. Title text in top-left: 'KV cache'. No logos or brand names. Memory blocks with reuse arrows; a dimmed eviction block. Label 'reuse'.",
+  "rubric": [
+    "Cache reuse is clearly shown.",
+    "Eviction is de-emphasized.",
+    "Title 'KV cache' is visible.",
+    "Playful, minimal style."
+  ],
+  "grade": {
+    "pass": true,
+    "score": 0.98,
+    "failures": [],
+    "improvements": [
+      "Cache reuse is shown via arrows, but you could make the reuse loop even more explicit by forming a closed circular path among the colorful blocks or adding a subtle \"loop\" icon.",
+      "Eviction is nicely de-emphasized with the dim gray block; you could further downplay it by reducing its size slightly or softening the surrounding sparkles so it competes less with the main colorful blocks."
+    ],
+    "summary": "All rubric items are met: cache reuse is clearly depicted with arrows between colorful memory blocks, eviction is visually de-emphasized using a dim gray sad block, the title 'KV cache' is clearly visible in the top-left, and the style is playful, minimal, and pastel. Only minor tweaks are possible to further highlight reuse and downplay eviction."
+  }
+}
