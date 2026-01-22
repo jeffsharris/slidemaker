@@ -53,3 +53,9 @@ slidemaker report --run <run_id>
 - `runs/<run_id>/index.json` - attempt log and grading outcomes
 - `runs/<run_id>/final/` - approved images for the deck
 - `runs/<run_id>/report.html` - static viewer
+- `runs/<run_id>/critiques/` - saved critique logs and layout feedback
+
+## Critique logging
+
+When receiving large critiques or structural feedback, save them as Markdown under
+`runs/<run_id>/critiques/` with a timestamped filename. Keep the full history.

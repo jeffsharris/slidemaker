@@ -179,3 +179,7 @@ def build_outline(intake_text: str) -> dict[str, list[dict[str, str]]]:
         }
         slides.append(slide)
     return {"slides": slides}
+
+
+if __name__ == "__main__":
+    main()

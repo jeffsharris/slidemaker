@@ -11,6 +11,10 @@ from openai import APIConnectionError, APIError, APITimeoutError, RateLimitError
 from .utils import BackoffConfig, retry_async
 
 
+class RetryableParseError(Exception):
+    pass
+
+
 @dataclass
 class GradeResult:
     passed: bool
@@ -22,6 +26,8 @@ class GradeResult:
 
 def _is_retryable(exc: Exception) -> bool:
     if isinstance(exc, (RateLimitError, APIConnectionError, APITimeoutError)):
+        return True
+    if isinstance(exc, RetryableParseError):
         return True
     if isinstance(exc, APIError):
         status = getattr(exc, "status_code", None)
@@ -138,7 +144,19 @@ class OpenAIGrader:
                 },
                 max_output_tokens=300,
             )
-            payload = json.loads(response.output_text)
+            try:
+                payload = json.loads(response.output_text)
+            except json.JSONDecodeError:
+                text = response.output_text or ""
+                start = text.find("{")
+                end = text.rfind("}")
+                if start != -1 and end != -1 and end > start:
+                    try:
+                        payload = json.loads(text[start : end + 1])
+                    except json.JSONDecodeError as exc:
+                        raise RetryableParseError("Failed to parse grader JSON") from exc
+                else:
+                    raise RetryableParseError("Grader output missing JSON object")
             return GradeResult(
                 passed=payload["pass"],
                 score=float(payload["score"]),

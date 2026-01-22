@@ -20,7 +20,8 @@ def build_report(run_root: Path, slides: list[dict[str, Any]]) -> Path:
             f"<figcaption><strong>{slide_id}</strong> - {title}</figcaption></figure>"
         )
 
-    html = """
+    rows_html = "\n".join(rows)
+    html = f"""
 <!doctype html>
 <html lang="en">
 <head>
@@ -28,22 +29,22 @@ def build_report(run_root: Path, slides: list[dict[str, Any]]) -> Path:
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SlideMaker Report</title>
   <style>
-    body { font-family: "Georgia", serif; margin: 24px; background: #f4f1ec; color: #222; }
-    h1 { font-size: 28px; margin-bottom: 16px; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
-    figure { margin: 0; background: #fff; border: 1px solid #ddd; padding: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
-    img { width: 100%; height: auto; display: block; }
-    figcaption { margin-top: 8px; font-size: 14px; }
+    body {{ font-family: "Georgia", serif; margin: 24px; background: #f4f1ec; color: #222; }}
+    h1 {{ font-size: 28px; margin-bottom: 16px; }}
+    .grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }}
+    figure {{ margin: 0; background: #fff; border: 1px solid #ddd; padding: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); }}
+    img {{ width: 100%; height: auto; display: block; }}
+    figcaption {{ margin-top: 8px; font-size: 14px; }}
   </style>
 </head>
 <body>
   <h1>SlideMaker Report</h1>
   <section class="grid">
-    {rows}
+    {rows_html}
   </section>
 </body>
 </html>
-""".strip().format(rows="\n".join(rows))
+""".strip()
 
     report_path = run_root / "report.html"
     write_text(report_path, html)
